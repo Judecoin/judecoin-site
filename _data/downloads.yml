@@ -1,0 +1,86 @@
+# 'vers' is meant to be used in case of a platform-specific release (e.g. vers: "0.18.2.0 - Mumbling Potato")
+
+gui:
+- version: "0.17.2.2 - Oxygen Orion"
+  downloads:
+   - platform: Windows 64-bit (Installer)
+     hash: ff2826a4437080470ceeaac43d0cede89798caf4a864a9cd13430ed2c63aca14
+     link: https://downloads.getmonero.org/gui/win64install
+     icon: icon-windows
+     vers: 
+   - platform: Windows 64-bit (Zip)
+     hash: 5d20829f43c431135455ec9bd788889e59dda4c6f74b6eaa92eec5411d9246e2
+     link: https://downloads.getmonero.org/gui/win64
+     icon: icon-windows
+     vers: 
+   - platform: Mac OS X 64-bit
+     hash: 3ee4e9145b0545ba4e5c47b89b64bc558c8eeb7887d260b3bd30f6a215029964
+     link: https://downloads.getmonero.org/gui/mac64
+     icon: icon-apple
+     vers: 
+   - platform: Linux 64-bit
+     hash: 0088b133febdb151a3753393b4dc8b06111b844c0fca14e512f3c8d56a2a5b97
+     link: https://downloads.getmonero.org/gui/linux64
+     icon: icon-linux
+     vers: 
+   - platform: Source Code
+     link: https://github.com/monero-project/monero-gui
+     icon: icon-github
+     
+
+cli:
+- version: "0.17.2.0 - Oxygen Orion"
+  downloads:
+   - platform: Windows 64-bit
+     hash: 71e531a0f799c80e3f6319888bd5b85a737091b9bd5d66366cae036163857caf
+     link: https://downloads.getmonero.org/cli/win64
+     icon: icon-windows
+     vers: 
+   - platform: Windows 32-bit
+     hash: c772070ebdfe9e0d6abda5073808e648e69f8c35f8010e66b80f45a6bdb01792
+     link: https://downloads.getmonero.org/cli/win32
+     icon: icon-windows
+     vers:
+   - platform: Mac OS X 64-bit
+     hash: 2e95dc107ab0dab36f5544bec040180264256e45407c383cfb45cfe328fe42e0
+     link: https://downloads.getmonero.org/cli/mac64
+     icon: icon-apple
+     vers:
+   - platform: Linux 64-bit
+     hash: 59e16c53b2aff8d9ab7a8ba3279ee826ac1f2480fbb98e79a149e6be23dd9086
+     link: https://downloads.getmonero.org/cli/linux64
+     icon: icon-linux
+     vers: 
+   - platform: Linux 32-bit
+     hash: e8a39be486549908c10524d851a006c21c30b1a49142586aff0a17e7c4d46077
+     link: https://downloads.getmonero.org/cli/linux32
+     icon: icon-linux
+     vers:
+   - platform: Linux ARMv8
+     hash: a004fad5348549e2f1610380775353f19db7cbca0cbe4acbfab87832c484da62
+     link: https://downloads.getmonero.org/cli/linuxarm8
+     icon: icon-linux
+     vers:
+   - platform: Linux ARMv7
+     hash: b5986d6dfbddee14e32b28305dd0dc6352c18b632f569227f2c7265ef7dc5081
+     link: https://downloads.getmonero.org/cli/linuxarm7
+     icon: icon-linux
+     vers:
+   - platform: Android ARMv8
+     hash: b8a353f02feaee9aae3d279c043ea33a32413a298d8b6122d00a65508f15169d
+     link: https://downloads.getmonero.org/cli/androidarm8
+     icon: icon-android
+     vers:
+   - platform: Android ARMv7
+     hash: 815341f7d46f75a8905f8b51932e1034a7f6b1669757ff48224632d08339d1bf
+     link: https://downloads.getmonero.org/cli/androidarm7
+     icon: icon-android
+     vers:
+   - platform: FreeBSD 64-bit
+     hash: 34ef5702a050298f48ccea7db992137bc98c8e6eba45ecd90b47ce0a4b7bf0f8
+     link: https://downloads.getmonero.org/cli/freebsd64
+     icon: icon-freebsd
+     vers:
+   - platform: Source Code
+     link: https://github.com/monero-project/monero
+     icon: icon-github

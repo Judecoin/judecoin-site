@@ -1,0 +1,1106 @@
+global:
+  date: '%d.%m.%Y'
+  monero: Monero
+  getting_started: Wprowadzenie
+  copyright: Prawa autorskie
+  monero_project: Projekt Monero
+  sitename: getmonero.org, Projekt Monero
+  wiki: Moneropedia
+  tags: Artykuły po tagu
+  wikimeta: w Moneropedii, otwartej encyklopedii wiedzy o Monero
+  tagsmeta: Wszystkie otagowane artykuły o Monero na blogu
+  titlemeta: Monero, cyfrowa waluta, która jest bezpieczna, prywatna i niewykrywalna
+  terms: Warunki
+  privacy: Prywatność
+  untranslated: Ta strona jeszcze nie została przetłumaczona. Jeśli chcesz pomóc w
+    jej tłumaczeniu, przejdź do
+  outdatedVersion: wersja po angielsku
+  outdatedMin: Ta strona została zaktualizowana po tym, jak została przetłumaczona.
+    Możesz korzystać z tej wersji, jednak może być ona niekompletna. Proszę użyć
+  lang_tag: "@lang_tag_pl"
+
+  outdated: Zawartość tej strony jest nieaktualna i może być nieprawidłowa. Skontaktuj
+    się ze społecznością jeśli potrzebujesz wsparcia.
+titles:
+  index: Start
+  whatismonero: Czym jest Monero (XMR)?
+  accepting: Akceptowanie Monero
+  contributing: Ulepszanie Monero
+  mining: Wydobywanie Monero
+  faq: FAQ
+  downloads: Do ściągnięcia
+  allposts: Wszystkie wpisy na blogu
+  hangouts: Hangouty
+  sponsorships: Sponsoring
+  merchants: Handlowcy i serwisy
+  about: O Monero
+  roadmap: Oś czasu
+  researchlab: Laboratorium Badawcze Monero
+  moneropedia: Moneropedia
+  userguides: Przewodniki dla użytkowników
+  developerguides: Przewodniki dla deweloperów
+  technicalspecs: Właściwości techniczne
+  themoneroproject: Projekt Monero
+  presskit: Materiały prasowe Monero
+  legal: Informacje prawne
+  blogbytag: Blog
+  library: Księgarnia
+
+  workgroups: Grupy robocze
+navigation:
+  getstarted: Wstęp
+  whatis: Czym jest Monero?
+  accepting: Akceptowanie
+  contributing: Współpraca
+  mining: Wydobywanie
+  community: Społeczność
+  merchants: Handel
+  resources: Materiały
+  about: O Monero
+  mrl: Laboratorium badawcze
+
+index:
+  page_title: "Monero - bezpieczne, prywatne, niewykrywalne"
+
+home:
+  heading2: Prywatna waluta cyfrowa
+  monero_is_cash: Monero jest bezpieczną, prywatną i niewykrywalną kryptowalutą otwartego
+    źródła, dostępną dla wszystkich. Z Monero sam jesteś swoim bankiem. Tylko ty kontrolujesz
+    i jesteś odpowiedzialny za swoje fundusze. Twoje konto i wszystkie transakcje
+    są utrzymywane w prywatności przed wścibskim okiem.
+  get_started: Wstęp
+  downloads: Do ściągnięcia
+  moneropedia_para: Chcesz sprawdzić znaczenie pojęć i konceptów używanych przy Monero?
+    Tutaj znajdziesz alfabetyczny przewodnik do pojęć i ich znaczeń z projektu Monero
+    oraz Kovri.
+  moneropedia_button: Przejdź do Moneropedii
+  faq: FAQ
+  faq_para: Otrzymujemy wiele pytań, dlatego opracowaliśmy kompletny i zróżnicowany
+    zestaw pytań i odpowiedzi. Nie przejmuj się, jeśli twoje pytanie nie znajduje
+    się na liście, zawsze możesz je zadać społeczności.
+  contributing: Współtworzenie
+  visitmrl: Odwiedź MRL
+  researchlab_para: MRL (laboratorium badawcze Monero) jest bardzo ważną częścią Monero.
+    Badacze i kryptografowie z całego świata spotykają się, aby znaleźć nowe sposoby
+    ulepszenia Monero. Przeczytaj ich artykuły i dołącz do nich!
+  contributecommunity: 'Potrzebujemy Twoich umiejętności: Dołącz!'
+  joincommunity: Dołącz do społeczności
+  guides_para: "Społeczność zgromadziła ogromną ilość zasobów i dokumentacji. Użytkownicy\
+    \ mogą znaleźć przydatne informacje i przewodniki dotyczące typowych konfiguracji\
+    \ oraz wskazówki w sekcji „Podręczniki użytkownika”. Programiści mogą znaleźć\
+    \ wszystko, czego potrzebują do zbudowania usługi opartej na Monero lub po prostu\
+    \ komunikować się z siecią w „Przewodnikach dla programistów”. Biblioteka oferuje\
+    \ publikacje i książki do bezpłatnego pobrania, w tym pełne książki „Mastering\
+    \ Monero” oraz „Zero to Monero”.\n"
+  guides: Przewodniki i zasoby
+  merchants: Sprzedawcy
+  useit_para: Monero jest walutą którą można wymieniać na towary i usługi, poufnie
+    i z bardzo niskimi opłatami. Wiele podmiotów chętnie przyjmie płatności w XMR,
+    spójrz na naszą listę sprzedawców aktualnie akceptujących Monero.
+  useit: 'To jest waluta: Korzystaj z niej!'
+  exchanges: Giełdy
+  getcoins: Otrzymaj monety
+  choosewallet: Wybierz portfel
+  whatis: Dowiedz się więcej o Monero
+  choosewallet_para: Aby korzystać z Monero, pierwszą rzeczą którą potrzebujesz jest
+    portfel. Odwiedź naszą stronę pobierania i ściągnij odpowiedni portfel dla siebie.
+    Portfele są dostępne dla różnych platform i zawierają wszystko wymagane aby natychmiast
+    rozpocząć używać Monero .
+  answers: Znajdź odpowiedzi na swoje pytania
+  contributecommunity_para: Monero to nie tylko zwykła waluta, to zdecentralizowana
+    społeczność, która istnieje tylko dzięki setkach wolontariuszy, którzy poświęcają
+    swój czas projektowi. Dołącz do nas!
+  getcoins_para: Po instalacji portfela musisz otrzymać jakieś Monero. Jest kilka
+    sposobów aby zdobyć kilka monet na wydatki, na przykład kopanie lub praca za Monero,
+    jednak najprostszym sposobem jest korzystanie z giełdy i zamienienie twojej powszechnej
+    waluty na XMR. Wiele giełd, scentralizowanych lub zdecentralizowanych notuje Monero
+    (XMR).
+hangouts:
+  intro: Społeczność Monero jest różnorodna. Jesteśmy na całym świecie, ale mamy swoje
+    ulubione miejsca spotkań. Większość z nich znajdziesz poniżej. Dołącz do nas!
+  resources: Materiały do pracy grupowej
+  resources_para: Aby wspomóc pracę grupową, Monero posiada wiele materiałów, które
+    mogą zostać użyte na spotkaniach i przy planowaniu projektów. Najistotniejsze
+    z nich są nawet przekazywane najpopularniejszym kanałom IRC związanym z Monero.
+  irc: Kanały IRC
+  irc_para: Społeczność Monero używa wielu kanałów IRC, a każdy z nich jest przeznaczony
+    do czegoś innego. Niektóre z nich służą do pracy, a niektóre do pogadania. Najpopularniejsze
+    z nich znajdziesz poniżej.
+  irc_channels:
+    monero: Ten kanał służy do omawiania wszystkich spraw związanych z Monero.
+    monero-community: Ten kanał jest przeznaczony dla społeczności Monero, aby gromadzić
+      się i omawiać pomysły.
+    monero-dev: Wielu współautorów i programistów przychodzi tutaj, aby omówić sprawy
+      związane z programowaniem.
+    monero-markets: Używamy tego kanału, aby rozmawiać o cenie Monero i innych walut.
+    monero-offtopic: Rozmowy z innymi użytkownikami Monero na tematy niezwiązane z
+      Monero.
+    monero-pools: To jest miejsce na pytania i dyskusje dotyczące kopania.
+    monero-research-lab: Badania dotyczące prywatności finansów w kryptowalutach.
+    monero-translations: Lokalizacja Monero na inne języki.
+    monero-hardware: Budowanie portfeli sprzętowych, aby zapewnić bezpieczeństwo twoich
+      Monero.
+    monero-site: Gdzie rozwój tej strony jest koordynowany.
+    kovri:
+    kovri-dev:
+  subscribe: Subskrybuj
+  mailing_list1: Jeżeli chcesz otrzymywać ważne ogłoszenia bezpośrednio na swój adres
+    e-mail, dołącz do naszych list mailingowych!
+  mailing_list: Lista mailingowa
+  bridges: Te kanały są połączone mostami z wieloma innymi platformami, umożliwiając
+    społeczności komunikowanie się przy użyciu ich ulubionych usług / protokołów czatu.
+
+merchants:
+  intro1: Różnego rodzaju handlowcy doceniają finansową prywatność, jakiej dostarcza
+    Monero. Poniżej znajduje się lista organizacji, o których wiemy, że akceptują
+    Monero jako środek płatniczy za swoje produkty i usługi. <b>Organizacje znajdujące
+    się na liście nie są promowane przez społeczność, zobacz ostrzeżenie na dole tej
+    strony</b>. Jeśli któraś z nich już nie przyjmuje Monero lub chciałbyś, żeby twoja
+    firma znalazła się na liście, proszę
+  intro2: załóż wątek na GitHub i daj nam znać
+  intro3: (wybierz szablon „Merchant” (Sprzedawca) i wypełnij wszystkie sekcje).
+  disclaimer: "Uwaga: powyższe linki są jedynie udogodnieniem i służą tylko do celów\
+    \ informacyjnych; nie reprezentują one wsparcia społeczności Monero dla żadnego\
+    \ z produktów, usług ani opinii wymienionych organizacji lub osób. Społeczność\
+    \ Monero nie bierze odpowiedzialności za zgodność, legalność ani treść tych zewnętrznych\
+    \ stron. W przypadku wątpliwości związanych z treścią linków, skontaktuj się z\
+    \ właścicielami zewnętrznej strony. Jesteś odpowiedzialny za swoje wyszukiwania.\
+    \ Zawsze przemyśl swój internetowy zakup.\n"
+
+  onion: Adres onion (wymaga Tor)
+sponsorships:
+  intro: Poniższe organizacje aktywnie wspierają Projekt Monero w niesieniu światu
+    finansowej prywatności. Jesteśmy bardzo wdzięczni za ich wkład. Jeśli chcesz zasponsorować
+    Projekt Monero i pojawić się na tej liście, wyślij e-mail na adres dev@getmonero.org.
+
+  macstadium: MacStadium sponsoruje dedykowany komputer Mac Mini, który jest używany
+    do rozwoju oprogramowania związanego z komputerami Mac.
+  globee: GloBee sponsoruje główną infrastrukturę strony Monero.
+  tari: Tari Labs sponsoruje CDN z którego korzysta ta witryna.
+  forknetworking: Fork Networking zapewnia serwer, który jest używany do rozwoju oprogramowania.
+  symas: Symas sponsoruje swojego CTO Howarda Chu (hyc) za jego pracę nad bazą kodu
+    Monero.
+team:
+  core: Główny zespół
+  community: Grupa robocza ds. społeczności
+  mrl: Laboratorium Badawcze
+  localization_descr: Jedna z najstarszych grup roboczych Monero. Tworzą ją użytkownicy
+    pracujący nad tłumaczeniem oprogramowania oraz dokumentacji związanej z Monero.
+    Zdecydowanie zalecamy skontaktowanie się z grupą roboczą przed rozpoczęciem pracy
+    nad tłumaczeniami.
+  localization: Grupa robocza ds. lokalizacji
+  chatgui: 'Czat (GUI):'
+  chatgeneral: 'Czat (ogólny):'
+  devworkgroup_descr: 'Ta grupa robocza jednoczy programistów Monero pracujących nad
+    portfelami oraz demonem obsługiwanym przez główny zespół. Ta grupa robocza składa
+    się z dwóch głównych części: CLI i GUI. Te zespoły koordynują się w dwóch różnych
+    pokojach czatowych.'
+  community_start: Najlepszym sposobem na rozpoczęcie współpracy z tą grupą roboczą
+    jest dołączenie do czatów i przedstawienie się, określając swoje zainteresowania
+    i umiejętności do zaoferowania społeczności.
+  core_start: Główny zespół to zamknięta grupa robocza; nie można do niej dołączyć
+    bez zaproszenia.
+  website: 'Strona internetowa:'
+  chat: 'Czat:'
+  contacts: Pokoje czatowe i kontakty
+  start: Gdzie zacząć
+  descr: Opis
+  introduction: Grupy robocze są tworzone przez członków społeczności, którzy łączą
+    siły, aby osiągnąć wspólny cel. Mają różne struktury i cele. Na tej stronie podajemy
+    niektóre z bardziej aktywnych grup roboczych oraz kilka wskazówek, które pomogą
+    Ci zacząć, jeśli chcesz wnieść swój wkład w którąkolwiek z nich.
+  webworkgroup: Grupa robocza ds. strony internetowej
+  devworkgroup: Grupa robocza ds. rozwoju oprogramowania
+  mrw_start: Większość działań tej grupy roboczej odbywa się na czacie IRC. Jeśli
+    chcesz wnieść swój wkład, po prostu dołącz do kanału, aby zadawać pytania lub
+    udzielać wsparcia.
+  mrw_descr: Grupa robocza Monero ds. odpowiedzi na złośliwe oprogramowanie dostarcza
+    zasoby i wsparcie na żywo dla wielu rodzaji złośliwego oprogramowania związanego
+    z Monero.
+  mrw: Grupa robocza ds. odpowiedzi na złośliwe oprogramowanie
+  space_start: Z grupą roboczą można się skontaktować pisząc na jej czacie na Freenode.
+  space_descr: Monero Space to aktywna, skupiona na projektach grupa robocza Monero,
+    która świadczy usługi społeczności Monero. Obsługuje popularne zasoby i organizuje
+    wydarzenia, takie jak Monero Meet.
+  space: Monero Space
+  mrl_start: Dołącz do poniższego czatu, przedstaw swoje zainteresowania oraz umiejętności.
+    Badania są zawsze w toku i ktoś wskaże Ci właściwy kierunek.
+  mrl_descr: Jak sama nazwa sugeruje, Monero Research Lab to grupa robocza skupiona
+    na badaniach związanych z Monero. Została utworzony przez naukowców próbujących
+    znaleźć sposób na ulepszenie protokołu oraz funkcji Monero. Większość ulepszeń
+    protokołu, które sprawiają Monero niesamowitym, jak CLSAG i @Bulletproofs, są
+    wynikiem pracy tej grupy roboczej.
+  telegram: 'Czat Telegram:'
+  outreach_descr: Ta grupa robocza koncentruje się na rozpowszechnianiu Monero, zdobywaniu
+    artystów, pisarzy i każdego, kto chce, aby Monero było znane światu.
+  locplatform: 'Platforma lokalizacji:'
+  localization_start: Skontaktuj się z grupą roboczą na czacie lub otwórz problem
+    w repozytorium GitHub. Możesz także od razu rozpocząć tłumaczenie za pomocą platformy
+    Weblate. Koniecznie najpierw przeczytaj przewodnik dla tłumaczy.
+  web_start: Zawsze dobrze jest dołączyć do czatu i porozmawiać bezpośrednio z członkami
+    grupy roboczej, ale jeśli wolisz zacząć samodzielnie, zajrzyj do pliku readme
+    w repozytorium GitHub. Zawiera instrukcje krok po kroku dotyczące edycji każdej
+    części tej witryny.
+  mpwg_start: Jeśli chcesz wziąć udział lub śledzić dyskusje na temat polityk, dołącz
+    do czatu matrix/freenode.
+  mpwg_descr: Grupa robocza Monero ds. polityki to luźno uformowane kworum osób zainteresowanych
+    interakcją z organami regulacyjnymi, decydentami politycznymi i szerszym sektorem
+    usług finansowych w celu zapewnienia szerokiego zrozumienia technologii Monero,
+    zwłaszcza w odniesieniu do ich zgodności z zmieniającymi się wymogami regulacyjnymi
+    i compliance.
+  mpwg: Grupa robocza Monero ds. polityki
+  outreach_start: Członkowie grupy roboczej ds. Outreach korzystają intensywnie z
+    Telegramu do koordynacji oraz z matrix/freenode rzadziej. Jeśli chcesz pomóc,
+    najlepiej skontaktować się z grupą roboczą za pomocą jednego z tych kanałów. Są
+    dość uporządkowane, więc prawdopodobnie zostaniesz skierowany do koordynatora.
+  web_descr: Ta grupa robocza skupiona na programowaniu koordynuje rozwój strony internetowej.
+    Większość jej członków należy także do grupy roboczej ds. rozwoju oprogramowania.
+    Grupa robocza ds. strony internetowej została stworzona głównie w celu prowadzenia
+    dyskusji związanych z witryną w jednym miejscu.
+  devworkgroup_start: Warto przyjrzeć się otwartym problemom w obu repozytoriach,
+    aby zdobyć pojęcie, co można naprawić lub ulepszyć. Obie bazy kodów, ale zwłaszcza
+    podstawowe repozytorium, mogą być dość wymagające, dlatego sugerujemy, aby najpierw
+    napisać na czacie przedstawiając siebie, swoje umiejętności i to, w czym chcesz
+    pomóc.
+  community_descr: Ta grupa robocza jest używana przez społeczność do organizowania
+    i koordynowania. Zacznij tutaj jeśli nie jesteś programistą, a chcesz pomóc projektowi
+    Monero.
+  core_descr: W imieniu społeczności, Główny Zespół zarządza i utrzymuje infrastrukturę,
+    w której nie można uniknąć centralizacji (domeny, strona internetowa, repozytoria
+    github...). Jego członkowie działają jako mediatorzy i według własnego osądu starają
+    się osiągnąć konsensus w społeczności, polepszając jakość interakcji, które sprawiły,
+    że Monero odniósł sukces jako projekt, jakim jest dzisiaj. Główny zespół nie otrzymuje
+    i nigdy nie otrzymał żadnego wynagrodzenia finansowego.
+downloads:
+  intro: Na tej stronie znajdziesz i ściągniesz najnowszą dostępną wersję oprogramowania
+    Monero, a także portfele sprzętowe, lekkie i mobilne.
+  choose: Wybierz plik do pobrania
+  gui: Portfel GUI
+  cli: Portfel CLI
+  blockchain: Zimportuj blockchain
+  blockchain1: Jeśli wolisz używać surowy blockchain zamiast synchronizacji od zera,
+    możesz użyć najbardziej aktualnego bootstrapu. Zazwyczaj synchronizacja od zera
+    jest jednak znacznie szybsza, a także wymaga znacznie mniej pamięci podręcznej.
+  blockchainbutton: Pobierz blockchain
+  mobilelight: Portfele mobilne oraz lekkie
+  hardware: Portfele sprzętowe
+  gui_intro: Portfel GUI zapewnia przyjemny interfejs użytkownika, dostosowany do
+    wszystkich rodzajów użytkowników, ale jest szczególnie polecany osobom mniej technicznym,
+    które chcą szybko wysyłać i odbierać XMR.
+  simplemode: Tryb prosty
+  simplemode1: Stworzony dla mniej technicznych użytkowników, którzy chcą używać Monero
+    w najłatwiejszy i najszybszy możliwy sposób. Otwórz portfel, automatycznie połącz
+    się z @remote-node, wysyłaj/otrzymuj XMR, gotowe!
+  advancedmode: Tryb zaawansowany
+  advancedmode1: Ze wszystkimi zaawansowanymi funkcjami, które mogą się przydać. Idealny
+    dla doświadczonych użytkowników Monero, którzy wolą mieć pełną kontrolę nad swoim
+    portfelem oraz węzłem
+  merchantpage: Strona handlowców
+  merchantpage1: Otrzymuj łatwo XMR dla swojej firmy
+  hwcompatible: Kompatybilny z portfelami sprzętowymi
+  hwcompatible1: takimi jak Trezor i Ledger
+  fiatconv: konwersja walut rządowych w aplikacji
+  fiatconv1: Nie musisz już sprawdzać wartości swojego XMR online
+  pruning: Przycinanie Blockchain
+  pruning1: Masz za mało miejsca na dysku? Po prostu użyj @przycinania, aby pobrać
+    tylko 1/3 blockchain
+  langs: "<b>ponad 30 języków</b> dostępne"
+  cli_intro: Portfel CLI zapewnia pełną kontrolę nad twoim węzłem Monero i środkami.
+    Wysoce konfigurowalny i zawiera różne narzędzia analityczne, a także interfejs
+    HTTP RPC oraz 0MQ.
+  currentversion: Obecna wersja
+  sourcecode: Source Code
+  helpsupport: Pomoc i wsparcie
+  helpsupport1: "Przewodnik z objaśnieniem każdej sekcji portfela jest dostępny:"
+  helpsupport2: "Sprawdź najnowsze wydanie"
+  gui_helpsupport: "Jeśli masz problemy lub potrzebujesz więcej informacji, skontaktuj\
+    \ się ze społecznością. Zespół GUI znajdziesz na czacie IRC #monero-gui lub odwiedź\
+    \ stronę Hangouts, aby uzyskać pełniejszą listę kontaktów i pokoji czatowych"
+  cli_helpsupport: "Jeśli masz problemy lub potrzebujesz więcej informacji, skontaktuj\
+    \ się ze społecznością. Zespół CLI znajdziesz na czacie IRC #monero oraz #monero-dev\
+    \ lub odwiedź stronę Hangouts, aby uzyskać pełniejszą listę kontaktów i pokoji\
+    \ czatowych"
+  localremote: Węzeł lokalny lub zdalny
+  localremote1: Korzystaj ze swojej własnej kopii blockchain lub publicznie dostępnej
+  transacttor: Transakcje przez Tor/I2P
+  transacttor1: Dla dodatkowej warstwy prywatności
+  bootstrapnode: Bootstrap node
+  bootstrapnode1: Skorzystaj z @remote-node podczas lokalnego pobierania blockchaina,
+    pozwoli to na natychmiastowe korzystanie z Monero i przełączenie się na węzeł
+    lokalny po zakończonej synchronizacji
+  rpc: Portfel RPC oraz demon
+  rpc1: zawarte w archiwum
+  payforrpc: Pay-for-RPC
+  payforrpc1: Nowa funkcja, która umożliwia nagradzanie operatorów węzłów podczas
+    korzystania z ich węzła
+  verify: Zweryfikuj
+  verify1: Zdecydowanie zalecane jest sprawdzenie haszów pobranego archiwum. To zapewni,
+    że pobrane pliki dokładnie odpowiadają plikom udostępnionzm przez grupę roboczą
+    Monero. Nie lekceważ tego kroku, uszkodzone archiwum może spowodować utratę środków.
+  showhash: Pokaż hasze do weryfikacji pobrania
+  showhash1: Tutejsze hasze SHA256 są podane dla wygody, jednak lista haszów podpisana
+    za pomocą GPG znajduje się
+  showhash2: i powinna być traktowana jako kanoniczne, z podpisem sprawdzanym odpowiednim
+    kluczem GPG
+  showhash3: "w kodzie źródłowym"
+  hardware1: 'Społeczność Monero zafundowała'
+  hardware2: Dedykowany portfel sprzętowy (Kastelo)
+  hardware3: który jest teraz w trakcie rozwoju.
+  hardware4: Ledger Nano S i Nano X są obsługiwane w portfelach Monero CLI, Monero
+    GUI oraz Monerujo.
+  hardware5: Trezor Model T jest obsługiwany w portfelach Monero CLI oraz Monero GUI.
+  mobilelight1: Poniżej znajdują się portfele mobilne lub lekkie, uważane za bezpieczne
+    przez szanowanych członków społeczności. Jeśli nie ma tu jakiegoś portfela, możesz
+    poprosić społeczność o jego sprawdzenie. Przejdź do naszych
+  mobilelight2: Hangoutów
+  mobilelight3: aby sprawdzić gdzie nas znajdziesz.
+  installer: Instalator
+
+  verify2: Zawsze weryfikuj pobrane pliki!
+  blockchain4: dla instrukcji krok po kroku dla systemu Windows.
+  blockchain3: Importowanie blockchain Monero
+  blockchain2: Jeśli mimo wszystko chcesz kontynuować, zajrzyj do instrukcji obsługi
+  packages_link: Sprawdź listę na GitHub
+  packages: Dostępne są również pakiety dla wielu dystrybucji Linuksa.
+  moreinfofaq: Więcej informacji w FAQ
+  avwarning: Należy pamiętać, że niektóre programy antywirusowe i zapory sieciowe
+    mogą oznaczać pliki wykonywalne i archiwa Monero jako złośliwe oprogramowanie.
+  antivirus: Antywirus
+  desktop: Stacjonarna
+  mobile: Mobilna
+  wallet: Portfel
+  releasenotes: informacje do wersji
+  showhash4: 'Dwa poradniki są dostępne, by poprowadzić cię przez proces weryfikacji:'
+monero-project: {}
+press-kit:
+  intro1: Tu znajdziesz symbol oraz logo Monero. Możesz wybrać dowolny rozmiar lub
+    ściągnąć plik .ai i zmienić je samemu.
+  intro2: Zauważ, że w opcji z białym tłem, białe tło znajduje się jedynie pod symbolem
+    Monero, a nie jako tło całego obrazu.
+  intro3: Ostatecznie możesz ściągnąć zawartość całej strony jako plik .zip, klikając
+  intro4: tutaj.
+  noback: Bez tła
+  whiteback: Białe tło
+  symbol: Symbol Monero
+  logo: Logo Monero
+  small: Mały
+  medium: Średni
+  large: Duży
+  symbol_file: Symbol .ai
+  logo_file: Logo .ai
+  pressdoc: Dokumentacja prasowa
+  quickfacts: "Krótki arkusz informacyjny"
+  quickfactsp: >
+    Szybki i łatwy dokument do przeczytania aby wiedzieć wszystko o Monero: historie,
+    główne różnice, techniczne fundamenty oraz przyszłość w dewelopowaniu.<br> See
+    <a target="_blank" href="https://www.monerooutreach.org">Monero Outreach</a> website
+    for more information.
+  marketing: Materiały marketingowe
+  dontbuysticker: "Naklejka 'Nie kupuj Monero'"
+  dontbuystickerp: Rozpowszechniaj Monero wszędzie z pomocą tej naklejki. Dostępna
+    w wielu językach i formatach (wektory w zestawie).
+  guerrillakit: Narzędzia marketingu partyzanckiego
+  guerrillakitp: Dokument stworzony przez Monero Outreach workgroup zawierający materiały
+    i wskazówki dotyczące skutecznej kampanii marketingu partyzanckiego.
+
+  mrllogo_para: Logo Monero Research Lab w formacie SVG.
+  othersymbols: Inne symbole oraz loga
+  promographicsp: Różne grafiki oraz odznaki stworzone przez TheMonera, dla sprzedawców
+    oraz entuzjastów.
+  promographics: Grafiki promocyjne Monero - Znaczki i naklejki dla stron internetowych
+accepting:
+  merchantsthirdp1: Niektóre z nich oferują fajne funkcje, takie jak możliwość automatycznej
+    zamiany części twojego dochodu na waluty rządowe lub akceptowanie innych kryptowalut
+    wraz z Monero.
+  merchthirdlink: stronie sprzedawców
+  merchantsthirdp: Jeśli szukasz innego systemu integracji strony trzeciej, znajdziesz
+    listę bramek płatniczych na
+  merchantsintlink: organizacji GitHub
+  merchantsint: Jeśli wolisz się nie zajmować bezpośrednio portfelami, możesz skorzystać
+    z systemu płatności strony trzeciej. Członkowie społeczności Monero stworzyli
+    zestaw integracji dla różnych platform oraz języków. Więcej informacji znajdziesz
+    w
+  merchantsreceive1: 'Jeśli potrzebujesz wsparcia, społeczność zawsze chętnie Ci pomoże.
+    Przyjdź na czat #monero, pokój jest na Freenode, ale jest również transmitowany
+    na MatterMost oraz Matrix.'
+  merchdevguides: przewodnikami dla programistów
+  merchantsreceive: Jeśli jesteś przedsiębiorcą i chcesz programowo otrzymywać @transakcje
+    lub korzystać z zaawansowanych funkcji, takich jak wiele sygnatur, zalecamy zapoznanie
+    się z
+  merchantstitle: Instrukcje dla sprzedawców
+  clinotes: "Należy pamiętać, że poniższe instrukcje to tylko minimalne i niezbędne\
+    \ do tworzenia kont / adresów podrzędnych oraz korzystania z nich. Interfejs CLI\
+    \ oferuje bardziej złożone sposoby obsługi kont oraz ogólnie portfela. Użyj polecenia\
+    \ „help”, aby wyświetlić wszystkie dostępne opcje.\n"
+  cliindex1: "Każde z kont może obsługiwać praktycznie nieograniczoną liczbę adresów\
+    \ podrzędnych. Działają one dokładnie tak, jak zwykły adres i możesz utworzyć\
+    \ dowolną liczbę i używać ich do otrzymywania XMR na konto, z którym są połączone.\
+    \ Aby utworzyć nowy adres podrzędny dla konta, użyj polecenia:\n"
+  cliindex: "Jak widać na powyższym obrazku, każde konto ma numer indeksu, którego\
+    \ możesz użyć do przełączenia się z jednego konta na drugie za pomocą polecenia\
+    \ `account switch [indeks]`. Na przykład, korzystając z powyższego obrazu jako\
+    \ odniesienia, jeśli chcesz przełączyć się na konto „Donations”, aby je monitorować,\
+    \ możesz to zrobić, wydając swojemu CLI polecenie `account switch 1`. Jesteś teraz\
+    \ na swoim koncie „Donations” i możesz od razu zacząć z niego korzystać.\n"
+  clicreateaccount1: Teraz masz inne konto oddzielone od twojego głównego. W każdej
+    chwili możesz przełączać się między kontami.
+  clicreateaccount: 'Aby utworzyć konto, po prostu wykonaj polecenie:'
+  cliaccounts: "Jeśli chcesz, możesz mieć znacznie większą kontrolę. Monero daje możliwość\
+    \ tworzenia wielu kont, z których każde może zawierać wiele adresów podrzędnych,\
+    \ przydatnych, jeśli chcesz zarządzać wieloma kontami. Na przykład możesz chcieć\
+    \ posiadać @konto do otrzymywania darowizn oraz osobne do codziennego użytku.\
+    \ Umożliwi to łatwe monitorowanie wpływających środków na konto „darowizn” bez\
+    \ mieszania ich z kontem głównym.\n"
+  clicreatewallet: "Kiedy tworzysz swój portfel po raz pierwszy, @adres zostanie automatycznie\
+    \ wyświetlony. To twój główny adres. Jeśli chcesz, możesz po prostu używać tego\
+    \ adresu do otrzymywania płatności. Powinienno cię martwić, kto zna ten adres\
+    \ (ponieważ jeden adres w różnych lokalizacjach może być powiązany), ale nie musisz\
+    \ martwić się, że obserwatorzy blockchain będą w stanie widzieć transakcje na\
+    \ ten adres, tak jak w przypadku Bitcoin. Znajomy może wysyłać transakcje na ten\
+    \ sam adres bez ograniczania prywatności.\n"
+  cliinstructions: Instrukcje dla CLI
+  guiol4: Poczekaj, aż płatność dotrze i otrzyma wystarczająco potwierdzeń (Im więcej
+    potwierdzeń, tym bezpieczniejsza transakcja. Potrzebujesz co najmniej 10 potwierdzeń,
+    zanim będziesz mógł wydać otrzymane środki).
+  guiol3: Wprowadź kwotę do otrzymania, a następnie udostępnij płatnikowi adres URL
+    lub kod QR płatności. Jeśli chcesz śledzić płatność w czasie rzeczywistym, zaznacz
+    opcję „Włącz śledzenie sprzedaży”.
+  guiol2: Jeśli chcesz określić kwotę do otrzymania, przejdź do strony „Sprzedawca”
+    (po wybraniu na stronie „Otrzymuj” @konta, które będzie używane do otrzymania
+    XMR).
+  guiol1: Udostępnij adres złożony z liter i cyfr osobie, od której chcesz otrzymywać
+    monety. Prawdopodobnie wolisz korzystać z bardziej przyjaznego dla użytkownika
+    kodu QR.
+  guiol: Przejdź do strony „Otrzymuj” i utwórz/wybierz adres, na który chcesz otrzymać
+    monety.
+  guisteps: 'Te dwie strony dają każdemu możliwość łatwego przyjmowania XMR po wykonaniu
+    następujących czynności:'
+  guimerchant1: "Jest to strona podobna do POS, na której sprzedawca może w prosty\
+    \ sposób ustawić ilość XMR do otrzymania. Jeśli opcja „Śledzenie sprzedaży” jest\
+    \ włączona, płatności pojawią się w Twoim portfelu w czasie rzeczywistym, wraz\
+    \ z liczbą potwierdzeń.\n"
+  guilinkguide1: przewodniku, zlinkowanego powyżej
+  guimerchant: Sprzedawcy prawdopodobnie uznają za wygodniejsze korzystanie ze strony
+    „Sprzedawca” (zrzut ekranu poniżej), którą szczegółowo wyjaśniono w sekcji „Widok
+    sprzedawcy” w
+  guiinstructions: "Aby otrzymać XMR, wystarczy podać płatnikowi @adres, na który\
+    \ może przesłać środki. W większości przypadków łatwiej jest po prostu udostępnić\
+    \ kod QR i pozwolić płatnikowi go zeskanować, zamiast kopiować i wklejać ciąg\
+    \ alfanumeryczny. W GUI każdy wygenerowany adres zawiera kod QR. Niech osoba zeskanuje\
+    \ kod QR za pomocą @portfela Monero na swoim telefonie i otrzyma XMR w kilka minut.\
+    \ Pamiętaj, że możesz wygenerować dowolną liczbę adresów podrzędnych. Jest to\
+    \ przydatne, jeśli chcesz zachować środki rozdzielone z jakiegokolwiek powodu.\n"
+  guilinkguide: w przewodniku GUI.
+  gui2: Strona otrzymywania (pokazana poniżej) jest szczegółowo wyjaśniona
+  gui1: 'Przyjmowanie płatności za pomocą GUI jest bardzo proste. Nie ma znaczenia,
+    czy jesteś handlowcem, czy użytkownikiem, będziesz mieć do dyspozycji dwie strony:
+    Otrzymaj oraz Handlowcy.'
+  index: Indeks
+  title_gui: Instrukcje dotyczące GUI
+contributing:
+  intro: Monero jest projektem otwartego źródła i tworzonym przez społeczność. Poniżej
+    opisane są sposoby, którymi możesz wesprzeć ten projekt.
+  network: Wesprzyj sieć
+  develop: Programuj
+  full-node: Uruchom pełne węzły
+  mine: Wydobywaj
+  ffs: Zobacz Forumowy System Finansowania
+  donate: Przekaż dotację
+  donate-other: Pozostałe
+  donate-other_para1: Wyślij e-mail na adres
+  donate-other_para2: ", aby przekazać darowiznę w innej formie lub jeśli chcesz zostać\
+    \ sponsorem Projektu Monero."
+
+  develop_wg: Zobacz grupy robocze Monero.
+  develop_descr: "Ta lista zawiera tylko narzędzia, którymi zarządza główny zespół,\
+    \ ale ekosystem Monero jest znacznie bardziej obszerny. Ludzie mogą przyczynić\
+    \ się do rozwoju bibliotek, usług, dokumentacji, grafiki itp. Lista jest praktycznie\
+    \ nieskończona. Skontaktuj się z grupą roboczą lub dołącz do grupy, która bardziej\
+    \ odpowiada Twojemu sposobie współtworzenia.\n"
+  discl: Proces reagowania na luki bezpieczeństwa w projekcie Monero.
+  bug: 'Szukanie bugów i luk bezpieczeństwa: Monero posiada profil na Hackerone, a
+    programiści są proszeni o odpowiedzialne ujawnianie bugów i luk bezpieczeństwa.
+    Sprawdź'
+  website_p: Zbudowana w Jekyll. Bez Javascript.
+  website: 'Ta strona internetowa: '
+  gui_p: Głównie QML i C ++.
+  gui: 'Portfel GUI: '
+  cli_p: Podstawowy portfel, głównie napisany w C ++.
+  cli: 'Portfel CLI i demon: '
+  developp: 'Monero jest oprogramowaniem typu open source i nie wymaga pozwolenia;
+    współpracownicy są mile widziani i zachęcani. Deweloper może wnieść swój wkład
+    na wiele sposobów w różnych projektach:'
+faq:
+  q1: W jaki sposób Monero ma wartość?
+  a1: Monero ma wartość, ponieważ ludzie chcą go kupować. Jeśli nikt nie chce kupić
+    Monero, to jego wartość przestaje istnieć. Cena Monero wzrasta, gdy popyt na niego
+    przewyższa podaż i spada, gdy podaż przewyższa jego popyt.
+  q2: Skąd mogę wziąć Monero?
+  a2: Możesz kupić Monero na giełdzie lub od kogoś. Możesz też spróbować wydobycia
+    Monero, otrzymując walutę jako wynagrodzenie za każdy blok.
+  q3: Co to jest kod mnemoniczny?
+  a3: Kod mnmemoniczny to ciąg 25 słów, który może zostać użyty do przywrócenia twojego
+    konta w jakimkolwiek miejscu. Zachowaj te słowa w bezpiecznym miejscu i nie pokazuj
+    ich nikomu. Możesz użyć tego kodu, aby przywrócić swoje konto, nawet jeśli twój
+    komputer się zepsuje.
+  q4: Czym się różni prywatność Monero od innych walut?
+  a4: |-
+    Monero korzysta z trzech różnych technologii prywatności: @podpisu-pierścieniowego, poufnych transakcji pierścieniowych (@RingCT) i @ukrytych-adresów. Służą one do ukrycia, odpowiednio, nadawcy, kwoty i odbiorcy transakcji. Wszystkie transakcje w sieci są odgórnie prywatne i nie ma możliwości przypadkowego dokonania przejrzystej transackji. Jedynie Monero posiada taką właściwość. Na nikim nie musisz polegać w kwestii swojej prywatności.
+  q5: Dlaczego synchronizacja mojego portfela tyle trwa?
+  a5: Jeśli uruchomiłeś pełne węzły lokalnie, musisz skopiować cały łańcuch bloków
+    do twojego komputera. To może trochę potrwać, zwłaszcza w przypadku starych dysków
+    lub wolnego połączenia internetowego. Jeśli używasz węzła zdalnie, twój komputer
+    nadal zażąda kopii wszystkich wyników, co może zająć kilka godzin. Bądź cierpliwy,
+    a jeśli byś chciał poświęcić trochę swojej prywatności dla szybszego czasu synchronizacji,
+    pomyśl o lżejszym portfelu.
+  q6: Jaka jest różnica między lżejszym a normalnym portfelem?
+  a6: W lżejszym portfelu udostępniasz swój klucz widoczności węzłowi, który skanuje
+    łańcuchy bloków w poszukiwaniu nadchodzących transakcji na twoje konto lub w twoim
+    imieniu. Ten węzeł będzie wiedział, kiedy pieniądze wpłyną, ale nie będzie znał
+    kwoty transakcji, nadawcy ani odbiorcy, w przypadku transakcji wychodzącej. W
+    zależności od twojego programu portfelowego, możesz użyć węzła kotrolowanego przez
+    ciebie, aby uniknąć utraty prywatności. Aby zwiększyć prywatność, korzystaj z
+    normalnego portfela, do którego możesz użyć własnego węzła.
+  q7: Czym się różni Monero od Bitcoina?
+  a7: Monero nie opiera się na Bitcoinie, ale na protokole CryptoNote. Bitcoin jest
+    systemem zupełnie przejrzystym, gdzie możliwe jest zobaczenie dokładnej kwoty
+    przesyłanej od jednego użytkownika do drugiego. Monero ukrywa te informacje, aby
+    chronić prywatność użytkowników we wszystkich transakcjach. Posiada również m.
+    in. dynamiczny rozmiar bloku i dynamiczną wysokość opłat, dowód pracy odporny
+    na ASIC oraz permanentą emisję monet.
+  q8: Czy Monero posiada limit rozmiaru bloku?
+  a8: Nie, Monero nie posiada limitu rozmiaru bloku. Blok może zwiększać i zmniejszać
+    swój rozmiar w zależności od potrzeby. Jest to jednak ograniczone do określonej
+    stopy, aby uniknąć wygórowanego wzrostu.
+  q11: Czym jest zamienność i dlaczego jest ważna?
+  a11: Zamienność jest prostą cechą pieniądza, która polega na braku różnicy pomiędzy
+    dwoma ilościami o takiej samej wartości. Jeśli dwie osoby wymienią się jedną jednostką
+    o wartości 10 na dwie jednostki o wartości 5, to nikt nie wyjdzie na tym stratny.
+    Ale załóżmy, że "10" została użyta w ataku hakerskim z okupem. Czy ktoś przyjmie
+    tę jednostkę? Zapewne nie, nawet jeśli partner wymiany z "10" nie ma nic wspólnego
+    z atakiem. To może być problemem, bo osoba przyjmująca pieniądze musiałaby ciągle
+    sprawdzać, czy nie są one nieczyste. Monero jest zamienne, co oznacza, że nie
+    musimy się tym martwić.
+  q12: Skoro Monero jest takie prywatne, skąd wiemy, czy nie jest tworzone z niczego?
+  a12-1: Każdy wynik transakcji Monero jest unikalnie powiązany z kluczem, który może
+    być wygenerowany jedynie przez posiadacza tego wyniku. Klucze użyte wielokrotnie
+    są odrzucane przez górników jako dwukrotny wydatek i nie mogą zostać dodane do
+    prawidłowego bloku. Gdy pojawia się nowa transakcja, górnicy weryfikują, czy klucz
+    już nie istnieje, aby uniknąć podwójnego wydatku.
+  a12-2: Wiemy również, że kwoty transakcji są uzasadnione, mimo że wartość, którą
+    wprowadzasz lub otrzymujesz są zaszyfrowane (są ukryte dla wszystkich z wyjątkiem
+    odbiorcy). Ponieważ wartości są zaszyfrowane za pomocą zobowiązania Pedersena,
+    nie można odczytać wartości wychodzącej ani przychodzącej, ale robiąc obliczenia
+    można stwierdzić, że żadne Monero nie zostało stworzone z niczego.
+  a12-3: Dopóki zaszyfrowane wartości wychodzące są równe sumie wkładów (łącznie z
+    kwotą dla odbiorcy, zwrotem dla nadawcy i nieszyfrowaną opłatą za transakcję),
+    możesz mieć pewność, że transakcja jest poprawna i żadne Monero nie zostało stworzone
+    z niczego. Zobowiązanie Pedersena oznacza, że sumy mogą zostać zweryfikowane jako
+    równe, ale wartość Monero każdej z sum oraz wartość wychodząca i przychodząca
+    pozostają nieznane.
+  q13: Is Monero magic and protect my privacy no matter what I do ?
+  a13: Monero is not magic. If you use Monero but give your name and address to another
+    party, the other party will not magically forget your name and address. If you
+    give out your secret keys, others will know what you've done. If you get compromised,
+    others will be able to keylog you. If you use a weak password, others will be
+    able to brute force your keys file. If you backup your seed in the cloud, you'll
+    be poorer soon.
+  q14: Is Monero 100% anonymous ?
+  a14: Nie ma czegoś takiego jak 100% anonimowość. Twój poziom anonimowości jest równy
+    ilości osób, które używają Monero. Niektórzy ludzie nie używają Monero. Monero
+    może również posiadać luki w zabezpieczeniach. Nawet jeśli w tej chwili nie ma
+    żadnych luk, w przyszłości mogą pojawić się sposoby na uzyskanie pewnych informacji
+    poprzez luki w prywatności Monero. Złożoność ataków na sieć tylko się zwiększa.
+    Mimo zapięcia pasów podczas jazdy samochodem, nadal masz szansę zginąć w wypadku
+    samochodowym. Należy kierować się zdrowym rozsądkiem i zachowywać szczególną ostrożność.
+
+mining:
+  intro1: Monero jest kryptowalutą, która opiera się na wydobywaniu z dowodem pracy,
+    aby osiągnąć powszechny konsensus. Poniżej znajdziesz informacje i materiały dotyczące
+    rozpoczęcia wydobywania.
+  intro2: Projekt Moneto nie wspiera żadnego zrzeszenia, oprogramowania ani sprzętu,
+    a poniższa treść służy jedynie do celów informacyjnych.
+  support: Pomoc
+  support_para1: Zobacz
+  support_para2: Hangouty,
+  support_para4: i
+  pools: Zrzeszenia
+  pools_para1: Lista zaufanych zrzeszeń znajduje się
+  pools_para2: tutaj.
+  benchmarking: Porównanie sprzętu
+  benchmarking_para1: Zobacz listę
+  benchmarking_para2: procesorów GPU i CPU i ich prędkości haszowania.
+  software: Programy do wydobywania
+  software_para: Niektóre programy mogą wymagać opłat.
+
+using: {}
+what-is-monero:
+  need-to-know: Co musisz wiedzieć?
+  leading: Monero jest główną kryptowalutą skoncentrowaną na prywatności i transakcjach
+    odpornych na cenzurę.
+  leading_para1: Większość istniejących kryptowalut, w tym Bitcoin i Ethereum, posiada
+    przejrzyste łańcuchy bloków, co oznacza, że transakcje są łatwe do zweryfikowania
+    i śledzenia przez kogokolwiek na świecie. Co więcej, ich nadawcze i odbiorcze
+    adresy mogą zostać połączone z prawdziwą tożsamością użytkownika.
+  leading_para2: Monero używa kryptografii, aby chronić adresy nadawcy i odbiorcy,
+    jak również i przesyłane kwoty.
+  confidential: Transakcje Monero są poufne i niemożliwe do śledzenia.
+  confidential_para1: Każda płatność przy użyciu Monero odgórnie maskuje adres nadawcy
+    i odbiorcy oraz przesyłaną kwotę. Ta nieprzerwana prywatność oznacza, że aktywność
+    każdego użytkownika Monero wzmacnia ochronę prywatności wszystkich użytkowników,
+    w odróżnieniu od innych kryptowalut z wybiórczą transparentnością (np. Zcash).
+  confidential_para2: Monero jest zamienne. Zaletą maskowania jest to, że Monero nie
+    stanie się nieczyste przez poprzednie transakcje. To oznacza, że Monero zawsze
+    będzie uznawane, bez ryzyka cenzury.
+  grassroots: Monero jest oddolną inicjatywą społeczną, która zrzesza najlepsze światowe
+    talenty w zakresie badania i tworzenia kryptowalut.
+  electronic: Monero jest elektronicznym pieniądzem, który pozwala na szybkie i niedrogie
+    płatności na całym świecie.
+  electronic_para1: Nie istnieją wielodniowe okresy posiadania ani ryzyko nieuczciwych
+    obciążeń zwrotnych. Monero jest wolne od "kontroli kapitału" - środków ograniczających
+    wolny przepływ tradycyjnych walut w krajach niestabilnej gospodarki, czasami do
+    skrajnego stopnia.
+  videos: Filmy Monero (English)
+
+about:
+  history: Krótka historia
+  history_para1: Monero zostało uruchomione w kwietniu 2014 roku, kiedy po zapowiedzi
+    zainicjowano kod referencyjny w CryptoNote. Nie istniało pre-wydobycie ani wydobycie
+    natychmiastowe, a żadna część wynagrodzenia za blok nie szła do dewelopera. Da
+    się w tym zauważyć nawiązanie do oryginalnego Bitcoina.
+  history_para2: here.
+  history_para3: Twórca - thankful_for_today - zawnioskował o kilka kontrowersyjnych
+    zmian, z którymi nie zgodziła się społeczność. Nastąpił rozłam i Podstawowy Zespół
+    Monero rozpoczął nowy projekt z własną społecznością. Od tego czasu, nadzór sprawuje
+    ten sam Podstawowy Zespół.
+  history_para4: Od czasu wypuszczenia, Monero uległo wielu znaczącym zmianom. Łańcuch
+    bloków został przeniesiony do bazy danych o innej strukturze w celu zwiększenia
+    wydajności i elastyczności, ustalono minimalne rozmiary podpisów pierścieniowych,
+    aby wszystkie płatności były odgórnie prywatne oraz wdrożono system RingCT do
+    ukrycia kwot transakcji. Niemal wszystkie ulepszenia spowodowały zwiększenie bezpieczeństwa
+    i prywatności lub ułatwiły używanie waluty. Monero ciągle się rozwija i ma jako
+    główny cel prywatność i bezpieczeństwo, a jako drugi cel - łatwość użycia i efektywność.
+  values: Nasze wartości
+  values_para: Monero to coś więcej niż tylko technologia. Jest także tym, co technologia
+    oznacza. Niektóre z wiodących myśli zostały wypunktowane poniżej.
+  security: Bezpieczeństwo
+  security_para: Użytkownicy muszą ufać Monero w swoich płatnościach, nie obawiając
+    się ryzyka błędu lub ataku. Monero oferuje wynagrodzenie całego bloku górnikom,
+    którzy są najistotniejszymi członkami sieci zapewniającej to bezpieczeństwo. Transakcje
+    są kryptograficznie bezpieczne dzięki użyciu najnowszych i najsilniejszych dostępnych
+    narzędzi szyfrowniczych.
+  privacy: Prywatność
+  privacy_para: Monero bierze prywatność na serio. Monero musi być w stanie chronić
+    swoich użytkowników w sądzie, a także, w ekstremalnych przypadkach, od kary śmierci.
+    Taki poziom bezpieczeństwa musi być w całości dostępny dla wszystkich użytkowników,
+    niezależnie od tego, czy posiadają oni wiedzę technologiczną, czy nie mają pojęcia,
+    jak działa Monero. Użytkownik powinien w zupełności ufać Monero, aby nie czuł
+    się zobowiązany do zmiany swojego sposobu płatności pod ryzykiem zostania wykrytym
+    przez innych.
+  decentralization: Decentralizacja
+  decentralization_para: Monero jest zobowiązane do dostarczenia maksymalnej decentralizacji.
+    Nie musisz ufać nikomu w sieci, Monero nie jest prowadzone przez żadną dużą grupę.
+    Dostępny algorytm dowodu pracy ułatwia wydobywanie Monero na zwykłych komputerach,
+    co utrudnia nabycie przez jednostkę znacznej mocy wydobywczej. Węzły łączą się
+    za pomocą sieci I2P, aby zmniejszyć ryzyko cenzury oraz ujawnienia wrażliwych
+    informacji dotyczących transakcji. Decyzje o rozwoju są jasne i otwarte na publiczną
+    dyskusję. Zapisy z czatów deweloperów są w całości publikowane na stronie internetowej
+    i są widoczne dla wszystkich.
+
+
+developer-guides:
+  outdated: "Please note: the guides below have been recently refreshed and are maintained\
+    \ almost up-to-date by the community. However, methods are often added / removed\
+    \ / updated and may not be accurately described here."
+  rpc: Dokumenty RPC
+  daemonrpc: Dokumenty Daemon RPC
+  walletrpc: Dokumenty Portfela RPC
+user-guides:
+  general: Ogólnie
+  mining: Wydobywanie
+  recovery: Odzyskiwanie
+  wallets: Portfele
+  offline-backup: Jak zrobić backup off-line
+  vps-node: Jak uruchomić węzeł na VPS
+  import-blockchain: Importowanie łańcucha bloków Monero
+  monero-tools: Narzędzia Monero
+  purchasing-storing: Bezpieczne kupowanie i przechowywanie Monero
+  verify-allos: Verify binaries on Linux, Mac, or Windows command line (advanced)
+  verify-windows: Verify binaries on Windows (beginner)
+  mine-on-pool: Jak wydobywać w zrzeszeniu za pomocą XMRig
+  solo-mine: Jak wydobywać samemu za pomocą Graficznego Interfejsu Użytkownika
+  locked-funds: Jak odzyskać zablokowane fundusze
+  restore-account: Jak odzyskać konto
+  qubes: CLI wallet/daemon isolation with Qubes + Whonix
+  cli-wallet: Wprowadzenie do portfela w Interfejsie Wiersza Poleceń
+  remote-node-gui: Jak się połączyć ze zdalnym węzłem w portfelu Graficznego Interfejsu
+    Użytkownika
+  view-only: Jak założyć portfel tylko do wyświetlania
+  prove-payment: Jak udowodnić płatność
+  restore-from-keys: Przywracanie portfela za pomocą kluczy
+  ledger-wallet-cli: How to generate a Ledger Monero wallet with the CLI (monero-wallet-cli)
+  multisig-messaging-system: Multisig transactions with MMS and CLI wallet
+  tor_wallet: Connecting your local wallet to your own daemon over Tor
+
+roadmap:
+  completed: Ukończone
+  ongoing: W trakcie
+  upcoming: Nadchodzące
+  future: W przyszłości
+
+  jan:
+  feb:
+  mar:
+  apr:
+  may:
+  jun:
+  jul:
+  aug:
+  sep:
+  oct:
+  nov:
+  dec:
+  comingsoon:
+  launched:
+  renamed:
+  recovered:
+  paper1-2:
+  paper3:
+  released-0-8-8-6:
+  paper4:
+  released-0-9-0:
+  paper5:
+  ringsize-3:
+  released-0-10-0:
+  splitcoinbase:
+  released-0-10-1:
+  guibeta1:
+  enableringct:
+  released-0-10-2:
+  released-0-10-3-1:
+  hfminblock:
+  webredesign:
+  released-0-11-0:
+  fluffyblocks:
+  guioutbeta:
+  minringsize5:
+  releasedgui-0-11-0:
+  zeromq:
+  subaddress:
+  paper6:
+  release-0-11-1:
+  releasedgui-0-11-1:
+  multisig:
+  released-0-12-0:
+  releasedgui-0-12-0:
+  cryptonightv2:
+  hfring7:
+  getmonero-fr-pl:
+  released-0-12-1:
+  ledger:
+  released-0-12-2:
+  released-0-12-3:
+  releasedgui-0-12-3:
+  kovrialpha:
+  moneropedialoc:
+  getmonero-ar:
+  released-0-13-0-2:
+  releasedgui-0-13-3:
+  cryptonightv3:
+  bulletproofs:
+  ringsize11:
+  released-0-13-0-4:
+  paper8-9:
+  releasedgui-0-13-0-4:
+  paper7:
+  paper10:
+  mms:
+  getmonero-de:
+  released-0-14-0:
+  releasedgui-0-14-0:
+  ccs:
+  released-0-14-0-2:
+  cryptonightr:
+  getmonero-pt_br:
+  dlsag:
+  pruning:
+  trezort:
+  nanox:
+  tori2p:
+  multisigms:
+  weblate:
+  rpcpay:
+  ipv6:
+  removedpid:
+  nodediscovery:
+  randomx:
+  getmoneroweblate:
+  releasedgui-0-15-0-4:
+  released-0-15-0-5:
+  dandelion:
+  onionaddress:
+  supercop:
+  clsag:
+  tryptych:
+  kastelo:
+  layer2:
+  returnaddr:
+
+research-lab:
+  intro: Monero jest zobowiązane nie tylko do produkcji zamiennej waluty, ale także
+    do ciągłego badania w zakresie prywatności finansowej, która dotyczy kryptowalut.
+    Poniżej znajdziesz prace naszego własnego Laboratorium Badawczego Monero. Więcej
+    dokumentów wkrótce.
+  mrl_papers: Dokumenty Laboratorium Badawczego Monero
+  abstract: Abstrakt
+  introduction: Wstęp
+  read-paper: Przeczytaj całość
+  summary: Summary
+  mrlhtp: Understanding ge_fromfe_frombytes_vartime
+  mrlhtp_summary: Monero uses a unique hash function that transforms scalars into
+    elliptic curve points. It is useful for creating key images, in particular. This
+    document, authored by Shen Noether, translates its code implementation (the ge_fromfe_frombytes_vartime()
+    function) into mathematical expressions.
+  mrl1: O reakcji łańcuchowej w identyfikowalności w CryptoNote 2.0
+  mrl1_abstract: Ten biuletyn badawczy opisuje ewentualny atak na system anonimowości
+    oparty na podpisie pierścieniowym. Do argumentacji użyliśmy protokołu o kryptowalutach
+    CryptoNote 2.0 opublikowanego przez Nicolasa van Saberhagena w 2012 roku. Zostało
+    już uprzednio zaprezentowane, że nieidentyfikowalność maskująca parę jednorazowych
+    kluczy może być uzależniona od ieidentyfikowalności wszystkich kluczy użytych
+    w danym podpisie pierścieniowym. Pozwala to na możliwą reakcję łańcuchową w identyfikowalności
+    pomiędzy podpisami pierścieniowymi, powodując krytyczną utratę nieidentyfikowalności
+    całej sieci, jeśli parametry będą źle dobrane oraz jeśli atakujący będzie w posiadaniu
+    wystarczającego procentu sieci. Podpisy jednak nadal są jednorazowe i jakikolwiek
+    taki atak niekoniecznie naruszy anonimowość użytkowników. Mimo to, taki atak mógłby
+    przypuszczalnie osłabić wytrzymałość, którą CryptoNote demonstruje przeciwko analizie
+    łańcuchu bloków. Ten biuletyn badawczy nie uległ rewizji i jedynie odzwierciedla
+    wyniki wewnętrznego dochodzenia.
+  mrl2: Fałszowanie walut wirtualnych używających protokołu CryptoNote, za pomocą
+    drzewa skrótów
+  mrl2_abstract: Czwartego września 2014 roku miał miejsce nietypowy i nowatorski
+    atak na sieć kryptowaluty Monero. Atak podzielił sieć na dwa oddzielne podzbiory,
+    które odmówiły zaakceptowania słuszności drugiej podgrupy. Spowodowało to niezliczone
+    efekty, których część nie została jeszcze poznana. Hakerzy mieli krótki okres
+    czasu, podczas którego mogło dojść m.in. do sfałszowania. Ten biuletyn badawczy
+    opisuje niedociągnięcia w kodzie referencyjnym CryptoNote, które pozwoliły na
+    ten atak, rozwiązania wstępnie podjęte przez Rafała Freemana z Tigusoft.pl, a
+    następnie przez zespół CryptoNote, aktualne poprawki w bazie kodowej Monero oraz
+    bada wpływ zaatakowanego bloku na sieć. Ten biuletyn badawczy nie uległ rewizji
+    i jedynie odzwierciedla wyniki wewnętrznego dochodzenia.
+  mrl3: Monero nie jest takie tajemnicze
+  mrl3_abstract: Ostatnio w internecie pojawiły się pewne obawy odnośnie kodu źródłowego
+    CryptoNote oraz protokołu, oparte na tym, że protokół ten jest bardziej skomplikowany
+    niż, na przykład, protokół Bitcoina. Celem tej notatki jest próba wyjaśnienia
+    niektórych nieporozumień oraz rozwianie tajemnicy otaczającej Podpisy Pierścieniowe
+    Monero. Zacznę od porównania obliczeń użytych w podpisach pierścieniowych CryptoNote
+    (jak opisano w [CN]) z obliczeniami w [FS], na których bazuje CryptoNote. Następnie
+    porównam obliczenia w podpisie pierścieniowym do tego, co tak naprawdę jest zawarte
+    w bazie kodowej CryptoNote.
+  mrl4: Ulepszanie maskowania w protokole CryptoNote
+  mrl4_abstract: Zauważyliśmy, że wiele ataków w formie analizy łańcuchów bloków może
+    zdegradować niewykrywalność protokołu CryptoNote 2.0. Analizujemy możliwe rozwiązania,
+    dyskutujemy względne zalety i wady tych rozwiązań i sugerujemy ulepszenia w protokole
+    Monero, które zapewnią długoterminową odporność kryptowaluty na analizy łańcucha
+    bloków. Nasze zalecane ulepszenia Monero uwzględniają politykę minimalnego miksowania
+    na poziomie protokołu w całej sieci z n=2 obcych wyjść na jeden podpis pierścieniowy,
+    zwiększenie tej ilości do n=4 na poziomie protokołu po dwóch latach oraz tymczasową
+    domyślną ilość n=4 na poziomie portfela. Zalecamy również metodę wysyłania wyjść
+    Monero w stylu torrentów. Dyskutujemy także nad niejednolitą, zależną od wieku
+    metodą wyboru miksowania w celu złagodzenia pozostałych form analizy łańcucha
+    bloków tu opisanych, ale nie czynimy żadnych formalnych zaleceń ich wdrożenia
+    z wielu powodów. Rozgałęzienia następujące w efekcie tych ulepszeń również są
+    opisane w pewnym stopniu. Ten biuletyn badawczy nie uległ rewizji i jedynie odzwierciedla
+    wyniki wewnętrznego dochodzenia.
+  mrl5: Transakcje z Poufnym Podpisem Pierścieniowym
+  mrl5_abstract: Ten artykuł wprowadza do metody ukrywania kwot transakcji w silnie
+    zdecentralizowanej, anonimowej kryptowalucie Monero. Podobnie jak Bitcoin, Monero
+    jest kryptowalutą rozprowadzaną za pomocą procesu wydobycia z dowodem pracy. Oryginalny
+    protokół Monero został oparty na CryptoNote, który używa podpisów pierścieniowych
+    oraz jednorazowych kluczy w celu ukrycia nadawcy i odbiorcy płatności. Ostatnio
+    deweloper Centrum Bitcoina, Gregory Maxwell, omawiał oraz wdrożył technikę użycia
+    zobowiązań bitowych, aby ukryć kwotę transakcji. Ten artykuł opisuje nowy rodzaj
+    podpisu pierścieniowego - Wielowarstwowy Łączony Spontaniczny Anonimowy Podpis
+    Grupowy, który umożliwia ukrycie kwot, nadawcy i odbiorcy przelewów z rozsądną
+    wydajnością oraz weryfikowalną produkcją monet bez zaufania. Przytoczono niektóre
+    rozszerzenia protokołu, takie jak Zagregowane Dowody Zasięgu Schnorra oraz Wielopodpisy
+    Pierścieniowe. Autor pragnie zaznaczyć, że wczesne projekty tego artykułu zostały
+    opublikowane w społeczności Monero oraz na kanale IRC dotyczącym badań nad Bitcoinem.
+    Projekty haszowania łańcucha bloków są dostępne w [14] i dowodzą, że praca ta
+    została rozpoczęta w lecie 2015 roku i skończona na początku października 2015
+    roku. E-print dostępny jest także na stronie http://eprint.iacr.org/2015/1098.
+  mrl6: An Efficient Implementation of Monero Subaddresses
+  mrl6_abstract: Users of the Monero cryptocurrency who wish to reuse wallet addresses
+    in an unlinkable way must maintain separate wallets, which necessitates scanning
+    incoming transactions for each one. We document a new address scheme that allows
+    a user to maintain a single master wallet address and generate an arbitary number
+    of unlinkable subaddresses. Each transaction needs to be scanned only once to
+    determine if it is destinated for any of the user’s subaddresses. The scheme additionally
+    supports multiple outputs to other subaddresses, and is as efficient as traditional
+    wallet transactions.
+  mrl7: Sets of Spent Outputs
+  mrl7_abstract: This technical note generalizes the concept of spend outputs using
+    basic set theory. The definition captures a variety of earlier work on identifying
+    such outputs. We quantify the effects of this analysis on the Monero blockchain
+    and give a brief overview of mitigations.
+  mrl8: Dual Linkable Ring Signatures
+  mrl8_abstract: This bulletin describes a modification to Monero's linkable ring
+    signature scheme that permits dual-key outputs as ring members. Key images are
+    tied to both output one-time public keys in a dual, preventing both keys in that
+    transaction from being spent separately. This method has applications to non-interactive
+    refund transactions. We discuss the security implications of the scheme.
+  mrl9: Thring Signatures and their Applications to Spender-Ambiguous Digital Currencies
+  mrl9_abstract: We present threshold ring multi-signatures (thring signatures) for
+    collaborative computation of ring signatures, present a game of existential forgery
+    for thring signatures, and discuss uses of thring signatures in digital currencies
+    that include spender-ambiguous cross-chain atomic swaps for confidential amounts
+    without a trusted setup. We present an implementation of thring signatures that
+    we call linkable spontaneous threshold anonymous group signatures, and prove the
+    implementation existentially unforgeable.
+  mrl10: Discrete Logarithm Equality Across Groups
+  mrl10_abstract: This technical note describes an algorithm used to prove knowledge
+    of the same discrete logarithm across different groups. The scheme expresses the
+    common value as a scalar representation of bits, and uses a set of ring signatures
+    to prove each bit is a valid value that is the same (up to an equivalence) across
+    both scalar groups.
+  iacr2020018: "Triptych: logarithmic-sized linkable ring signatures with applications"
+  iacr2020018_abstract: Ring signatures are a common construction used to provide
+    signer ambiguity among a non-interactive set of public keys specified at the time
+    of signing. Unlike early approaches where signature size is linear in the size
+    of the signer anonymity set, current optimal solutions either require centralized
+    trusted setups or produce signatures logarithmic in size. However, few also provide
+    linkability, a property used to determine whether the signer of a message has
+    signed any previous message, possibly with restrictions on the anonymity set choice.
+    Here we introduce Triptych, a family of linkable ring signatures without trusted
+    setup that is based on generalizations of zero-knowledge proofs of knowledge of
+    commitment openings to zero. We demonstrate applications of Triptych in signer-ambiguous
+    transaction protocols by extending the construction to openings of parallel commitments
+    in independent anonymity sets. Signatures are logarithmic in the anonymity set
+    size and, while verification complexity is linear, collections of proofs can be
+    efficiently verified in batches. We show that for anonymity set sizes practical
+    for use in distributed protocols, Triptych offers competitive performance with
+    a straightforward construction.
+  cryptonote: Dokumenty oficjalne CryptoNote
+  cryptonote-whitepaper: Oficjalne dokumenty CryptoNote
+  cryptonote-whitepaper_para: Oficjalny dokument napisany przez zespół CryptoNote.
+    Pozwala zrozumieć, jak ogólnie działa algorytm CryptoNote.
+  annotated: Oficjalne dokumenty z komentarzami
+  annotated_para: Laboratorium Badawcze Monero opublikowało wersję dokumentów oficjalnych
+    CryptoNote opatrzoną komentarzami. Są one nieformalnym przeglądem twierdzeń linia
+    po linii w dokumencie. Komentarze wyjaśniają niektóre trudniejsze pojęcia za pomocą
+    łatwiejszych określeń.
+  brandon: Oficjalne dokumenty zrecenzowane przez Brandona Goodella
+  brandon_para: Formalna recenzja oryginalnego dokumentu dotyczącego kryptografii
+    napisanego przez badacza Laboratorium Brandona Goodella. Analizuje on dogłębnie
+    twierdzenia i zagadnienia matematyczne przedstawione w dokumentacji CryptoNote.
+
+specs:
+  pow_title: Dowód pracy
+  block_emission_title: Krzywa emisji
+  block_emission_main: "początkowo - krzywa główna: ~18.132 millionów monet do końca\
+    \ maja 2022 roku"
+  block_emission_tail: "następnie - krzywa z długim ogonem: 0.6 XMR na dwuminutowy\
+    \ blok, aktywowana po ukończeniu głównej emisji; przekłada się na <1% spadku inflacji\
+    \ w czasie"
+library:
+  description: "Below are some publications, books or magazines available for you\
+    \ to download."
+  books: Books
+  zerotomonerov2: "Zero to Monero: Second Edition"
+  zerotomonerov2p: >
+    Published: April 4, 2020, with <a href="https://github.com/UkoeHB/Monero-RCT-report">LaTeX
+    source code here</a><br>
+    A comprehensive conceptual (and technical) explanation of Monero.<br>
+    We endeavor to teach anyone who knows basic algebra and simple computer science
+    concepts like the ‘bit representation’ of a number not only how Monero works at
+    a deep and comprehensive level, but also how useful and beautiful cryptography
+    can be.
+  zerotomonerov1: "Zero to Monero: First Edition"
+  zerotomonerov1p: >
+    Published: June 26, 2018, with <a href="https://github.com/UkoeHB/Monero-RCT-report">LaTeX
+    source code here</a>
+  masteringmonerop: >
+    A guide through the seemingly complex world of Monero.<br>
+    It includes:
+    <ul><li>A broad introduction to blockchains and the importance of privacy - ideal
+    for non-technical users.</li>
+    <li>Discussion of Bitcoin’s shortcomings and specific solutions provided by Monero.</li>
+    <li>User stories (illustrating how Monero protects your privacy), analogies, examples,
+    legal/ethical discussions, and code snippets illustrating key technical concepts.</li>
+    <li>Details of the Monero decentralized network, peer-to-peer architecture, transaction
+    lifecycle, and security principles.</li>
+    <li>Introductions to technical foundations of Monero, intended for developers,
+    engineers, software architects, and curious users.</li>
+    <li>New developments such as Kovri, Bulletproofs, Multisignature, Hardware Wallets,
+    etc.</li></ul>
+    See <a href="https://masteringmonero.com/">Mastering Monero</a> website for information.
+  magazines: Magazines
+  revuoq4p: >
+    Quarterly Monero magazine, Q4 2017 edition.<br>
+    In this issue, updates about: development, Monero Research Lab, Kovri, and community.
+  revuoq3p: >
+    Quarterly Monero magazine, Q3 2017 edition.<br>
+    In this issue, updates about: development, Monero Research Lab, Kovri, community,
+    Hardware, and Monerujo.
+
+moneropedia:
+  add_new_text1: If there is an entry you'd like to modify or be added, please
+  add_new_link: open an issue on this website's GitLab repository
+  add_new_text2: or submit changes via pull request
+  entries:
+    account: Konto
+    address: Adres
+    airgap: Airgap
+    atomic-units: Atomic Units
+    blockchain: Łańcuch bloków
+    block: Blok
+    bootstrap-node: Bootstrap-node
+    bulletproofs: Bulletproofs
+    canonically-unique-host: Zasadniczy unikalny host
+    change: Reszta
+    clearnet: Clearnet
+    coinbase: Transakcja coinbase
+    consensus: zgoda
+    cryptocurrency: Kryptowaluta
+    daemon: Daemon
+    denominations: Nominał
+    encryption: szyfrowanie
+    fluffyblocks: Fluffy Blocks
+    fungibility: Zamienialność
+    kovri: Kovri
+    locally-unique-host: Lokalnie unikalny host
+    mining: Wydobycie
+    mnemonicseed: Kod mnemoniczny
+    node: Węzeł
+    openalias: OpenAlias
+    paperwallet: Papierowy portfel
+    paymentid: Numer identyfikacyjny płatności
+    pedersen-commitment: Zobowiązanie Pedersena
+    pruning: Pruning
+    randomx: RandomX
+    remote-node: Remote Node
+    ringCT: Poufne Transakcje Pierścieniowe
+    ringsignatures: Podpis pierścieniowy
+    ring-size: Rozmiar pierścienia
+    scalability: Skalowalność
+    signature: Podpis kryptograficzny
+    smartmining: Smart Mining
+    spendkey: Klucz wydawania
+    stealthaddress: Ukryty adres
+    tail-emission: Tail emission
+    transaction: Transakcja
+    unlocktime: Transaction Unlock Time
+    viewkey: Klucz widoczności
+    wallet: Portfel
+
+blog:
+  author: Opublikowane przez
+  date: Opublikowane o
+tags:
+  notags: Nie ma wpisów z tym tagiem.
+footer:
+  source: Kod źródłowy
+  legal: Prawne
+  feed: Kanał RSS
+  reachout: Dotrzyj do nas
+  ml: List mailingowa
+  ccs: System Crowdfundingu Społecznościowego

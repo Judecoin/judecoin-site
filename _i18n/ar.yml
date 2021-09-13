@@ -1,0 +1,794 @@
+global:
+  date: '%Y/%m/%d'
+  monero: مونيرو
+  getting_started: إبدأ
+  copyright: حقوق الملكيه
+  monero_project: مشروع مونيرو
+  sitename: getmonero.org, مشروع مونيرو
+  wiki: مونيروبيديا
+  tags: المواضيع بالوصف
+  wikimeta: مونيروبيديا , موسوعه مونيرو المفتوحه للمعرفه
+  tagsmeta: جميع مقالات مدونه مونيرو التي تحتوي علي وصف
+  titlemeta: رئيسيه مونيرو , عمله رقميه آمنه وخاصه ولا يمكن تعقبها
+  terms: الشروط
+  privacy: الخصوصيه
+  untranslated: هذه الصفحه لم تترجم بعد , إذا أردت المساعده في الترجمه من فضلك تواصل
+    معنا
+  outdatedVersion: English version
+  outdatedMin: This page has been updated since the translation. You can use this
+    version, but it may be incomplete.
+  lang_tag: "@lang_tag_ar"
+
+titles:
+  index: الرئيسيه
+  whatismonero: ما هو مونيرو (XMR)?
+  accepting: قبول مونيرو
+  contributing: تطوير مونيرو
+  mining: تعدين مونيرو
+  faq: الأسئله الشائعه
+  downloads: التنزيلات
+  allposts: جميع مشاركات المدونه
+  hangouts: الملتقي
+  sponsorships: الداعمين
+  merchants: التجار & الخدمات
+  about: عن مونيرو
+  roadmap: خريطه الطريق
+  researchlab: مختبر بحث مونيرو
+  moneropedia: مونيروبيديا
+  userguides: دليل المستخدم
+  developerguides: دليل المُطور
+  technicalspecs: المواصفات التقنيه
+  themoneroproject: مشروع مونيرو
+  presskit: عِده مونيرو للصحافه
+  legal: قانوني
+  blogbytag: Blog
+  library: Library
+
+navigation:
+  getstarted: إبدأ
+  whatis: ما هو مونيرو ؟
+  accepting: القبول
+  contributing: المشاركه
+  mining: التعدين
+  community: المجتمع
+  merchants: التجار
+  resources: موارد
+  about: عن مونيرو
+  mrl: مختبر البحث
+
+index:
+  page_title: "مونيرو - آمن ,سري , لا يمكن تعقبها"
+
+home:
+  heading2: عمله رقميه سريه
+  monero_is_cash: مونيرو هو النقد في العالم المُتصل , إنه سريع وسري وآمن. مع مونيرو
+    أنت مصرفك الخاص. يمكنك الإنفاق بأمان بإيقان أن الأخرين لا يمكنهم معرفه رصيدك أو
+    تتبع نشاطك .
+  get_started: إبدأ
+  downloads: التنزيلات
+  moneropedia_para: هل تريد البحث في معني المصلطحات والمفاهيم المستخدمه في مونيرو
+    ؟ هُنا سوف تجد دليل مرتب هجائياً للمصطلحات ومعناها في مشروع مونيرو وأيضاً مشروع
+    كوفري .
+  moneropedia_button: إقرأ مونيروبيديا
+  faq: الأسئله الشائعه
+  faq_para: لقد سمعنا الكثير من الأسئله علي مر السنين وجمعنا لراحتك وسهوله الوصول
+    هذه التجميعه من الأسئله الشائعه المتنوعه, لا تقلق إذا لم تجد سؤالك هنا يمكنك دائما
+    سؤال مجتمع مونيرو .
+hangouts:
+  intro: مجتمع مونيرو متعدد ومختلف. لقد أتينا من كل مكان. لكن بكل تأكيد هناك أماكن
+    نحب أن نلتقي بها معاً. ستجد بالأسفل معظمهم شاركنا الأن!
+  resources: موارد مجموعه العمل
+  resources_para: من جهتنا في دعم مجموعات العمل, مونيرو يحتوي علي العديد من الموارد
+    يمكن ان يستخدمها المجتمع للإلتقاء وتخطيط المشاريع . علي mattermost يحتوي علي إعاده
+    بث في معظم قنوان مونيرو المشهوره علي بروتوكول الدردشة عبر الإنترنت IRC.
+  irc: IRC Channels
+  irc_para: مجتمع مونيرو ينتفع بالعديد من قنوان الدردشه IRC كل منها لغرض معين. بعضها
+    للعمل, وبعضها للإلتقاء بالمجتمع, سوف تجد أشهرهم في الأسفل.
+  irc_channels:
+    monero:
+    monero-community:
+    monero-dev:
+    monero-markets:
+    monero-offtopic:
+    monero-otc:
+    monero-pools:
+    monero-research-lab:
+    monero-translations:
+    monero-hardware:
+    monero-site:
+    kovri:
+    kovri-dev:
+
+merchants:
+  intro1: التجار من جميع الأنواع يُقدرون قيمه السريه الماليه التي يوفرها مونيرو. بالأدني
+    قائمه للتجار الذين نعرف أنهم يقبلون مونيرو لمنتجاتهم او خدماتهم. إذا كان هناك
+    شركه لا تقبل مونيرو أدناه أو كنت تود إضافه شركتك للقائمه, من فضلك
+  intro2: إفتح مسأله في GitLab
+  intro3:
+  disclaimer: |
+    "من فضلك لاحظ: هذه الروابط تم توفيرها هنا لسهوله الوصول ولإغراض تعريفيه فقط: ولا تشكل موافقه او دعم من مجتمع مونيرو لأي من المنتجات أو الخدمات أو رأي في الشركه أو المؤسسه المعروضه هنا. مجتمع مونيرو لا يتحمل أي مسئوليه لصحه أو قانونيه أو محتوي هذه المواقع. راسل هذه المواقع للحصول علي إجابات حول ما يحتويه موقعهم. ودائما تذكر مسئوليه المشتري " إحذر كمشتري " أنت مسئول عن القيام بالبحث الخاص بك والحكم قبل الشراء من أي موقع. "
+
+sponsorships:
+  intro: الأعمال التاليه قد ساندت مونيرو في هدفه لتوفير السريه الماليه للعالم. نحن
+    شاكرين جداً لمشاركتهم. إذا كنت تود دعم مشروع مونيرو وعرض مشروعك في هذه الصفحه
+    من فضلك قم بمراسله dev@getmonero.org.
+
+team:
+  core: Core
+  community: المجتمع
+  mrl: مختبر البحث
+downloads:
+  intro: On this page you can find and download the latest version available of the
+    Monero software, as well as hardware, light and mobile wallets.
+  choose: Choose your download
+  gui: GUI Wallet
+  cli: CLI Wallet
+  blockchain: Blockchain Bootstrap
+  blockchain1: If you'd prefer to use a blockchain bootstrap, instead of syncing from
+    scratch, you can use the most current bootstrap. It is typically much faster to
+    sync from scratch, however, and it also takes a lot less RAM.
+  blockchainbutton: Download Blockchain
+  mobilelight: Mobile & Light Wallets
+  hardware: Hardware Wallets
+  gui_intro: The GUI wallet provides a nice user interface, adaptable to all kinds
+    of users, but it is especially recommended for less technical people who want
+    to quickly send and receive XMR.
+  simplemode: Simple mode
+  simplemode1: Created for less technical users who only want to use Monero in the
+    easiest and quickest way possible. Open the wallet, automatically connect to a
+    remote node, send/receive XMR, done!
+  advancedmode: Advanced mode
+  advancedmode1: With all the advanced features you could need. Ideal for seasoned
+    Monero users who prefer to have full control of their wallet and node
+  merchantpage: Merchant page
+  merchantpage1: Receive XMR for your business, easily
+  hwcompatible: Compatible with hardware wallets
+  hwcompatible1: such Trezor and Ledger
+  fiatconv: in-app fiat conversion
+  fiatconv1: No longer a need to check the value of your XMR online
+  pruning: Blockchain pruning
+  pruning1: Not enough disk space? Just use pruning to download only 1/3 of the blockchain
+  langs: "<b>30+ languages</b> available"
+  cli_intro: The CLI wallet gives you the total control over your Monero node and
+    funds. Highly customizable and includes various analysis tools, as well as an
+    HTTP RPC and 0MQ interface.
+  currentversion: Current Version
+  sourcecode: Source Code
+  helpsupport: Help and Support
+  helpsupport1: "A guide with an explanation of every section of the wallet is available:"
+  helpsupport2: "See latest release"
+  gui_helpsupport: "If you are experiencing issues or you need more info, feel free\
+    \ to reach out to the community. You can find the GUI team at #monero-gui, or\
+    \ else check out the Hangouts page for a more complete list of contacts and chatrooms"
+  cli_helpsupport: "If you are experiencing issues or you need more info, feel free\
+    \ to reach out to the community. You can find the CLI team at #monero or #monero-dev,\
+    \ or else check out the Hangouts page for a more complete list of contacts and\
+    \ chatrooms"
+  localremote: Local or remote node
+  localremote1: Use your own copy of the blockchain or a publicly available one
+  transacttor: Transactions over Tor/I2P
+  transacttor1: For an additional layer of privacy
+  bootstrapnode: Bootstrap node
+  bootstrapnode1: Use a remote node while downloading the blockchain locally, this
+    will allow you to use Monero immediately and switch to your local node once it's
+    completely synced
+  rpc: RPC Wallet and Daemon
+  rpc1: included in the archive
+  payforrpc: Pay-for-RPC
+  payforrpc1: A new feature that allows node operators to get rewarded when their
+    node is used
+  verify: Verify
+  verify1: You are strongly advised to verify the hashes of the archive you downloaded.
+    This will confirm that the files you downloaded perfectly match the files uploaded
+    by the Monero development workgroup. Please don't underestimate this step, a corrupted
+    archive could result in lost funds. Always verify your downloads!
+  showhash: Show hashes to verify your download
+  showhash1: These SHA256 hashes are listed for convenience, but a GPG-signed list
+    of the hashes is at getmonero.org/downloads/hashes.txt and should be treated as
+    canonical, with the signature checked against the appropriate GPG key
+  showhash2: in the source code
+  showhash3: "Two guides are available to guide you through the verification process:"
+  hardware1: The Monero community has funded a
+  hardware2: Dedicated Hardware Wallet (Kastelo)
+  hardware3: which is now in progress. Moreover, since CLI 0.12.1 and GUI 0.12.3 Ledger
+    has
+  hardware4: integrated Monero into their hardware wallets.
+  hardware5: Trezor model T supports Monero since version 0.14.1.
+  mobilelight1: The following are mobile or light wallets that are deemed safe by
+    respected members of the community. If there is a wallet that is not on here,
+    you can request the community check it out. Go to our
+  mobilelight2: Hangouts
+  mobilelight3: page to see where we are.
+  installer: Installer
+
+monero-project: {}
+press-kit:
+  intro1: هنا ستجد رمز وشعار مونيرو بالأسفل. يمكنك إختيار أي حجم تريده أو تنزيل الملف
+    والتعديل علي الشعار كما تريد.
+  intro2: لاحظ أن إختيار الخلفيه البيضاء يجعل الخلفيه بيضاء خلف رمز مونيرو فقط, وليست
+    خلفيه للصوره كامله.
+  intro3: أخيراً, يمكنك تحميل كل شيء في هذه الصفحه في ملف مضغوط واحد بالضغط
+  intro4: هُنا.
+  noback: بدون خلفيه
+  whiteback: خلفيه بيضاء
+  symbol: رمز مونيرو
+  logo: شعار مونيرو
+  small: صغير
+  medium: متوسط
+  large: كبير
+  symbol_file: الرمز .ai ملف
+  logo_file: الشعار .ai ملف
+  pressdoc: Press Documentation
+  quickfacts: "Quick-Facts Sheet"
+  quickfactsp: >
+    A quick and easy to read document to know everything about Monero: history, key
+    differentiating factors, technical fundamentals, and features in development.<br>
+    See <a target="_blank" href="https://www.monerooutreach.org">Monero Outreach</a>
+    website for more information.
+  marketing: Marketing Material
+  dontbuysticker: "The 'Don't buy Monero' sticker"
+  dontbuystickerp: Spread Monero everywhere with the help of this sticker. Available
+    in multiple languages and formats (vectors included).
+  guerrillakit: Guerrilla Toolkit
+  guerrillakitp: A document created by the Monero Outreach workgroup containing materials
+    and tips for an effective guerrilla marketing campaign.
+
+accepting: {}
+contributing:
+  intro: مونيرو هو مشروع مفتوح المصدر, يُقاد من قبل المجتمع , موضح بالأدني طرق عديده
+    لمسانده المشروع .
+  network: ساند الشبكه
+  develop: طوّر
+  full-node: قم بتشغيل خادم كامل
+  mine: عدّن
+  ffs: زياره نظام تمويل المنتدي
+  donate: تبرّع
+  donate-other: غير ذلك
+  donate-other_para1: بريد
+  donate-other_para2: لوسائل أخري للتبرع أو إذا أحببت أن تكون من الراعيين لمشروع مونيرو.
+
+faq:
+  q1: كيف يكون لمونيرو قيمه ؟
+  a1: مونيرو له قيمه لأن الناس مستعده لشراءه. إذا لم يكن هناك مَن يُريد شراءه لن يكون
+    له أي قيمه. سعر مونيرو يُحدد بالعرض والطلب, يزيد سعر مونيرو إذا زاد الطلب عن العرض
+    ويَقل السعر في حاله حدوث العكس.
+  q2: كيف أحصل علي مونيرو؟
+  a2: يمكنك شراء مونيرو من أحد منصات التداول أو من أحد الأشخاص.وأيضاً يمكنك تعدين
+    مونيرو والحصول علي العمله من مكافئه الكتل.
+  q3: ماهي الرموز التذكيريه؟
+  a3: الرموز التذكيريه هي عباره عن 25 كلمه يمكن إستخدامها لإستعاده حسابك من أي مكان.
+    حافظ علي هذه الكلمات بِحِرص ولا تشاركها مع أي شخص. يمكنك إستخدام هذه الكلمات لإستعاده
+    حسابك حتي لو تعطل الحاسوب الخاص بك.
+  q4: كيف تختلف سريه مونيرو عن العملات الأخري ؟
+  a4: |
+    مونيرو يستخدم ثلاث تقنيات سريه مختلفه: توقيعات الطوق, معاملات الطوق السريه (RingCT), و العناوين المخفيه. هذه التقنيات تخفي المُرسل والكميه والمُستلم في المعاملات. جميع المعاملات في الشبكه سريه. لا يوجد طريقه لإرسال معامله شفافه عن طريق الخطأ. هذه الخاصيه توجد فقط في مونيرو. لا تحتاج للثقه في أي شخص من أجل سريه معاملاتك وخصوصيتك.
+  q5: لماذا تأخذ محفظتي وقت طويل للمزامنه ؟
+  a5: إذا كنت مٌشغل خادم كامل علي جهازك تحتاج لنسخ سلسله الكتل كامله علي جهازك. وهذا
+    يأخذ وقتاً طويلاً. خاصه علي الأقراص القديمه أو إذ كان لديك إتصال ضعيف بالإنترنت.
+    إذا كنت تستخدم خادم عن بعد يحتاج جهازك الحصول علي نسخه من جميع المخرجات, ويمكن
+    أن يأخذ هذا عده ساعات. كُن صبوراً, إذا كنت تريد التضحيه ببعض الخصوصيه في سبيل
+    سرعه المزامنه يمكنك إستخدام محفظه خفيفه بدلاً من ذلك.
+  q6: ما الفرق بين المحفظه الخفيفه والمحفظه العاديه ؟
+  a6: في المحفظه خفيفه الوزن تقوم بإعطاء مفتاح الرؤيه الخاص بك إلي خادم ويقوم الخادم
+    بالبحث في سلسله الكتل عن المعاملات القادمه إلي حسابك. هذا الخادم سوف يعلم عندما
+    تصلك معامله لكنه لن يعلم الكميه او المصدر للمعامله او إلي أين تُرسل نقودك. إمكان
+    استخدامك لخادم خاص بك يتوقف علي برنامج المحفظه المستخدمه . للحصول علي خصوصيه افضل
+    إستخدم محفظه عاديه التي يمكن إستخدامها مع خادم لخاص بك.
+  q7: كيف يختلف مونيرو عن البتكوين ؟
+  a7: مونيرو ليس مبني علي البيتكوين. مونيرو مبني علي بروتوكول كريبتونوت. البتكوين
+    هو نظام شفاف تماماً يمكن لأي شخص رؤيه الكميه المُرسله وعناوين المُرسِل والمُستَلِم
+    لأي معامله. مونيرو يخفي هذه المعلومات لحمايه خصوصيه المستخدمين في جميع المعاملات.
+    أيضاً حجم الكتل في مونيرو والرسوم متغيره, ولمونيرو خوارزميه تأكيد-العمل مضاده
+    للأجهزه المخصصه للتعدين وذلك ضمن العديد من الإختلافات الأخري.
+  q8: هل يوجد لمونيرو  حد لحجم الكتل ؟
+  a8: لا, مونيرو لا يحوي حد لحجم الكتل. بدلاً من ذلك يمكن لحجم الكتل أن يزيد أو يقل
+    مع الوقت بناءً علي الطَلَب. هو فقط مُحكم بحجم نمو معين لمنع النمو الصارخ.
+  q11: ماهي خاصيه الإستبداليه ولماذا تعتبر مهمه ؟
+  a11: الإستبداليه هي خاصيه بسيطه للمال وتعني أنه ليس هناك أي فرق بين كميتين من نفس
+    القيمه. إذا إستبدل شخصين 10 و خمستين لم يخسر أحدهما اي شيء. مع ذلك دعنا نفترض
+    أن الجميع يعرف أن هذه ال10 كانت مستخدمه سابقاً في هجمه إختراق, هل سيقوم الشخص
+    الأخر بالتبديل في هذه الحاله ؟ غالباً لا. برغم أن الشخص الذي يملك ال10 ليست لديه
+    أي صله بهجمه الإختراق تلك, هذه هي المشكله, منذ أنه يجب علي المستلم التحقق من تاريخ
+    الاموال التي يتلقاها حتي لا ينتهي الأمر به بأموال ملوثه. مونيرو يتمتع بخاصيه الإستبداليه,
+    وتعني أنك لا تحتاج أن تقوم بكل هذا الجهد, لأنه ليس هناك تاريخ شفاف لهذه الأموال
+    من الأساس .
+  q12: لو أن مونيرو خاص لهذه الدرجه كيف يمكننا التأكد من أنه لا يتم طباعته من الهواء
+    ؟
+  a12-1: في مونيرو, كل ناتج معامله مربوط بشكل فريد بصوره مفتاح التي لا يمكن إنشاؤها
+    إلا بواسطه المالك لهذا الناتج. صور المفاتيح التي تستخدم أكثر من مره يتم رفضها
+    بواسطه المُعدنين كمعامله مُتكرره ولا يمكن إضافتها في كتله سليمه. عندما يتم إستلام
+    معامله جديده يتحقق المعدنين من أن صوره المفتاح لا توجد بالفعل في معامله سابقه
+    للتأكد من أنها ليست مُعامله مُتكرره.
+  a12-2: يمكننا أيضاً معرفه أن كميه المعاملات سليمه علي الرغم من أن قيمه المعاملات
+    المُرسله وناتجها مُشفرين ( مُشفرين لكل الناس عدا المُستلم ). لأن الكميه مُشفره
+    عن طريق التزامات بيدرسن (Pedersen commitments) ما يعني ذلك أنه لا يُوجد مُلاحظ
+    يمكنه معرفه المُدخلات والمُخرجات لكن يمكن عمل عمليات حسابيه علي إلتزامات بيدرسن
+    لتأكيد أنه لم يتم إنشاء أي مونيرو من الهواء .
+  a12-3: طالما أن كميه المُخرجات المُشفره التي أنشأتها تُساوي نتيجه جميع المُدخلات
+    التي يتم صرفها ( والتي تحوي مُخرج للمُستلم وآخر وهو الباقي ويعود لك و ايضاً رسوم
+    المعامله وهي غير مشفره) بذلك تكون المعامله صحيحه ولم يتم إصدار أي مونيرو من الهواء.
+    إلتزامات بيدرسن تعني أنه يمكن التأكد من أن مجموع النواتج مُتساوي. لكن القيمه الفرديه
+    لكل عمليه جمع وحدها و المدخلات و المُخرجات وحدها لا يمكن تحديدها.
+  q13: Is Monero magic and protect my privacy no matter what I do ?
+  a13: Monero is not magic. If you use Monero but give your name and address to another
+    party, the other party will not magically forget your name and address. If you
+    give out your secret keys, others will know what you've done. If you get compromised,
+    others will be able to keylog you. If you use a weak password, others will be
+    able to brute force your keys file. If you backup your seed in the cloud, you'll
+    be poorer soon.
+  q14: Is Monero 100% anonymous ?
+  a14: There is no such thing as 100% anonymous. If nothing else, your anonymity set
+    is the set of people using Monero. Some people don't use Monero. Monero may also
+    have bugs. Even if not, ways may exist to infer some information through Monero's
+    privacy layers, either now or later. Attacks only get better. If you wear a seatbelt,
+    you can still die in a car crash. Use common sense, prudence and defense in depth.
+
+mining:
+  intro1: مونيرو هو عمله رقميه تعتمد علي طريقه خوارزميه تأكيد-العمل  في التعدين لتحقيق
+    الموافقه الإجماعيه الموزعه . أدناه ستجد المعلومات والموارد اللازمه للبدأ في التعدين.
+  intro2: مشروع مونيرو لا يُرجّح حقل (تجمّع للتعدين) أو برامج أو مُعدات معينه والمعلومات
+    أدناه لأغراض معرفيه فقط.
+  support: الدعم
+  support_para1: إنظر
+  support_para2: المُلتقي,
+  support_para4: و
+  pools: الحقول
+  pools_para1: قائمه بالحقول الموثوقه من قبل مونيرو
+  pools_para2: هُنا.
+  benchmarking: مقارنه للمُعدات
+  benchmarking_para1: إنظُر هنا
+  benchmarking_para2: قائمه بأنواع الـ CPU/GPU ومُعدل التعدين الخاص بهم.
+  software: برامج التعدين
+  software_para: لاحظ أن بعض البرامج تحوي رُسوم للمُطور
+
+using: {}
+what-is-monero:
+  need-to-know: ما تحتاج إلي معرفته
+  leading: مونيرو هي العمله الرقميه الرائده بالتركيز علي المعاملات السريه ومقاومه
+    الرقابه.
+  leading_para1: معظم العملات الرقميه الموجوده, بما فيها البتكوين والإيثيريوم لديهم
+    سلسله كتل شفافه, ويعني ذلك أن المعاملات مفتوحه للتحقق والتعقب من قِبَل أي شخص
+    في العالم. ضف إلي ذلك عناوين الإرسال والإستقبال لهذه المعاملات يحتمل ربطها بشخصيه
+    صاحبها في العالم الحقيقي.
+  leading_para2: مونيرو يستخدم التشفير لحجب عناوين الإرسال والإستقبال وكذلك الكميه
+    المرسله.
+  confidential: معاملات مونيرو سريه وغير قابله للتعقب.
+  confidential_para1: جميع المعاملات في مونيرو تُخفي عناوين الراسل والمُرسل إليه وكذلك
+    الكميه المُرسله إفتراضياً. السريه الإفتراضيه دائماً تعني أن نشاط كل مستخدم علي
+    شبكه مونيرو يعزز من سريه المستخدمين الآخرين. عكس العملات الرقميه الأخري الشفافه
+    إنتقائياً ( مثل زد كاش ).
+  confidential_para2: مونيرو إستبدالي, بفضل خاصيه التعتيم (إخفاء عنوان الراسل والمُرسل
+    إليه والكميه المُرسله) لا يُمكن لأجزاء مونيرو أن تكون مُلوثه عن طريق تاريخ المعاملات
+    السابقه. وهذا يعني أن مونيرو دائماً يُمكن قبوله بدون خطر الرقابه .
+  grassroots: مونيرو لديه مجتمع ذو قاعده شعبيه جاذبه لافضل باحثي العملات الرقميه والمهندسين
+    الموهوبين في العالم.
+  electronic: مونيرو هو النقد الإلكتروني الذي يتيح معاملات سريعه وغير مكلفه من وإلي
+    أي مكان في العالم.
+  electronic_para1: لا يوجد فترات إنتظار لعده أيام أو مخاطره عمليات رد المدفوعات الإحتياليه.
+    مونيرو آمن من " ضوابط راس المال" - وهي التدابير التي تحد من تدفق العملات التقليديه,
+    تجدها أحياناً إلي حد مخيف في الدول التي تعاني من عدم الإستقرار الإقتصادي.
+  videos: Monero Videos (English)
+
+about:
+  history: لمحه تاريخيه
+  history_para1: تم إطلاق مونيرو في ربيع اﻵخر سنه 2014. إنطلاق عادل, تم الإعلان المُسبق
+    عن الكود المرجعي ل(CryptoNote). لم يكن هناك أي تعدين مُسبق أو فعلي ولا يوجد نسبه
+    من مكافئات الكتل تذهب إلي التطوير. أُنظر الموضوع الأصلي علي موقع حديث البتكوين
+  history_para2: هُنا.
+  history_para3: إقترح المؤسس Thankful_for_today بعض التغييرات التي أثارت الجدل فرفضها
+    المجتمع. ومن تداعيات ذلك قيام فريق مونيرو الجوهري الحالي بفصل المشروع بعيداً عنه
+    وتبع المجتمع هذا الفريق الأساسي الجديد ومنذ ذلك اليوم تولي هذا الفريق أمور المشروع.
+  history_para4: قام مونيرو بالعديد من التحسينات مُنذ الإطلاق. تم نقل سلسله الكتل
+    إلي بنيه قاعده بيانات جديده توفر قدر أكبر من الكفائه والمرونه, تم وضع الحد الادني
+    لتوقيعات الطوق (Ring Signature) حتي تكون جميع المعاملات سريه إفتراضياً, وتم دمج
+    معاملات الطوق السريه (RingCT) لإخفاء الكميه المُرسله. وفرت جميع التحسينات كفائه
+    أفضل للخصوصيه والأمان, أو سهلت الإستخدام, يستمر مونيرو في التطوير بهدف الخصوصيه
+    والأمان في المقام الأول, وسهوله الإستخدام والكفائه في المقام الثاني.
+  values: قيَمَناَ
+  values_para: مونيرو هو أكثر من تقنيه. هو ما تمثله هذه التقنيه. بعض الفلسفات المُتبعه
+    مسروده بالأدني.
+  security: الأمان
+  security_para: يجب أن يكون المستخدمين قادرين علي الثقه في إستخدام مونيرو بمعاملاتهم
+    بدون التعرض لخطر حدوث خطأ أو هجوم. يُعطي مونيرو مكافئه تكوين الكتل كامله إلي المُعدنين,
+    وهم عصب الشبكه الذين يوفرون الأمان لها. المعاملات مؤمنه بإستخدام آخر وسائل التشفير
+    وأكثر أدوان التشفير المتاحه مرونه.
+  privacy: الخصوصيه
+  privacy_para: يأخذ مونيرو الخصوصيه بكل جديه. يجب أن يكون مونيرو قادراً علي حمايه
+    مستخدمينه في المحاكم أو في أكثر الحالات تطرفاً من عقوبه الإعدام. هذا المستوي من
+    الخصوصيه يجب أن يكون متاحاً لجميع المستخدمين, سواء كانو مؤهلين تقنياً أو ليس لديهم
+    أي فكره كيف يعمل مونيرو. يجب أن يثق المستخدم في مونيرو و لا يشعر بأي ضغط يجعله
+    يُغير عادات الإنفاق الخاصه به بسبب خطر إكتشاف اﻵخرين.
+  decentralization: اللامركزيه
+  decentralization_para: يلتزم مونيرو بتوفير أكبر قدر من اللامركزيه. مع مونيرو لست
+    بحاجه للثقه بأي شخص آخر في الشبكه, ولا يتم السيطره علي الشبكه من قبل أي جماعه
+    معينه, خوارزميه "تأكيد-العمل" سهله الوصول تجعل من السهل تعدين مونيرو علي الحواسيب
+    العاديه, والذي يجعل شراء شخص لكميه كبيره من قوه التعدين أمر أكثر صعوبه, تتصل الخوادم
+    ببعضها عن طريق برتوكول الإنترنت الخفي(I2P) لتقليل خطر كشف معلومات حساسه عن المعاملات
+    و الرقابه (قريباً). قرارات التطوير مفتوحه وواضحه للعامه لمناقشتها. سجل مقابلات
+    المُطورين يتم نشره علي الموقع كامل ومتاح للجميع.
+
+
+developer-guides:
+  outdated: "Please note: the guides below have been recently refreshed and are maintained\
+    \ almost up-to-date by the community. However, methods are often added / removed\
+    \ / updated and may not be accurately described here."
+  rpc: RPC Documentation
+  daemonrpc: Daemon RPC Documentation
+  walletrpc: Wallet RPC Documentation
+
+user-guides:
+  general: عام
+  mining: التعدين
+  recovery: الإستعاده
+  wallets: المحافظ
+  offline-backup: كيفيه عمل نسخه إحتياطيه دون إتصال بالإنترنت
+  vps-node: كيفيه تشغيل خادم مونيرو علي خادم خاص إفتراضي (vps)
+  import-blockchain: إستيراد سلسله كتل مونيرو
+  monero-tools: ادوات مونيرو
+  purchasing-storing: شراء وتخزين مونيرو بأمان
+  verify-allos: تحقق من ملفات التثبيت علي ويندوز ولينُكس (متقدم)
+  verify-windows: تحقق من الملفات علي ويندوز (للمبتدئين)
+  mine-on-pool: كيفيه التعدين في حقل (تجمّع للتعدين) مع برنامج XMRig
+  solo-mine: كيفيه التعدين منفرداً بالواجهه الرسوميه
+  locked-funds: كيفيه إصلاح مشكله الاموال المُعلّقه
+  restore-account: كيفيه إسترجاع حسابك
+  qubes: عزل واجهه سطر الأوامر / الخادم مع نظام Qubes + Whonix
+  cli-wallet: البدأ مع واجهه سطر الأوامر
+  remote-node-gui: كيفيه الإتصال بخادم بعيد في الواجهه الرسوميه
+  view-only: كيفيه عمل محفظه رؤيه فقط
+  prove-payment: كيفيه إثبات إتمام معامله
+  restore-from-keys: إستعاده محفظه من المفاتيح
+  ledger-wallet-cli: How to generate a Ledger Monero wallet with the CLI (monero-wallet-cli)
+  multisig-messaging-system: Multisig transactions with MMS and CLI wallet
+  tor_wallet: Connecting your local wallet to your own daemon over Tor
+
+roadmap:
+  completed: المهات المكتمله
+  ongoing: المهمات الجاريه
+  upcoming: المهمات القادمه
+  future: المستقبل
+
+  jan:
+  feb:
+  mar:
+  apr:
+  may:
+  jun:
+  jul:
+  aug:
+  sep:
+  oct:
+  nov:
+  dec:
+  comingsoon:
+
+  launched:
+  renamed:
+  recovered:
+  paper1-2:
+  paper3:
+  released-0-8-8-6:
+
+  paper4:
+
+  released-0-9-0:
+  paper5:
+  ringsize-3:
+  released-0-10-0:
+  splitcoinbase:
+  released-0-10-1:
+  guibeta1:
+
+  enableringct:
+  released-0-10-2:
+  released-0-10-3-1:
+  hfminblock:
+  webredesign:
+  released-0-11-0:
+  fluffyblocks:
+  guioutbeta:
+  minringsize5:
+  releasedgui-0-11-0:
+  zeromq:
+  subaddress:
+  paper6:
+  release-0-11-1:
+  releasedgui-0-11-1:
+  multisig:
+
+  released-0-12-0:
+  releasedgui-0-12-0:
+  cryptonightv2:
+  hfring7:
+  getmonero-fr-pl:
+  released-0-12-1:
+  ledger:
+  released-0-12-2:
+  released-0-12-3:
+  releasedgui-0-12-3:
+  kovrialpha:
+  moneropedialoc:
+  getmonero-ar:
+  released-0-13-0-2:
+  releasedgui-0-13-3:
+  cryptonightv3:
+  bulletproofs:
+  ringsize11:
+  released-0-13-0-4:
+  paper8-9:
+  releasedgui-0-13-0-4:
+  paper7:
+  paper10:
+  mms:
+
+getmonero-de:
+released-0-14-0:
+releasedgui-0-14-0:
+ccs:
+released-0-14-0-2:
+cryptonightr:
+getmonero-pt_br:
+dlsag:
+pruning:
+trezort:
+nanox:
+tori2p:
+multisigms:
+weblate:
+rpcpay:
+ipv6:
+removedpid:
+nodediscovery:
+randomx:
+
+getmoneroweblate:
+releasedgui-0-15-0-4:
+released-0-15-0-5:
+dandelion:
+onionaddress:
+supercop:
+clsag:
+tryptych:
+kastelo:
+layer2:
+
+returnaddr:
+
+
+research-lab:
+  intro: لا يلتزم مونيرو بإنشاء عمله آمنه لامركزيه إستبداليه فقط . ولكن بالبحث المستمر
+    في مجال الخصوصيه الماليه التي تنطوي علي العملات الرقميه. بالأدني ستجد أبحاث فريق
+    مختبر بحث مونيرو والعمل قائم علي المزيد من الأبحاث.
+  mrl_papers: أبحاث فريق مختبر بحث مونيرو
+  abstract: نبذه مختصره
+  introduction: المقدمه
+  read-paper: قراءة البحث
+  summary: Summary
+  mrlhtp: Understanding ge_fromfe_frombytes_vartime
+  mrlhtp_summary: Monero uses a unique hash function that transforms scalars into
+    elliptic curve points. It is useful for creating key images, in particular. This
+    document, authored by Shen Noether, translates its code implementation (the ge_fromfe_frombytes_vartime()
+    function) into mathematical expressions.
+  mrl1: ملاحظه علي التتبع في برتوكول كريبتونوت ( CryptoNote )  2.0
+  mrl1_abstract: هذه النشره البحثيه تصف هجوماً جديراً بالإهتمام في نظام إخفاء الهويه
+    القائم علي توقيعات-الطوق. نستخدم بروتوكول كريبتونوت (CryptoNote) 2.0 الذي تم نشره
+    ظاهرياً بواسطه نيكولاس فان سابريرهاجن في 2012. لقد تم إثبات سابقًا أن التعتيم
+    علي إمكانية التتبع لزوج مفتاح لمرة واحدة يعتمد على عدم إمكانية الوصول إلى كافة
+    المفاتيح المستخدمة في إنشاء توقيع-الطوق. ويتيح ذلك إمكانيه التتبع بين توقيعات-الطوق,
+    مسبباً خساره فادحه في التعتيم علي التتبع في الشبكه كلها إذا تم إختيار عناصر ضعيفه
+    او إذ كان المهاجم يمتلك جزء كبير من الشبكه. التوقعيات مازلات تستخدم مره واحده,
+    ولذلك, اي هجوم مماثل لن يقوم بالضروره بإنتهاك خصوصيه المستخدمين. وبالرغم من هذا,
+    يمكن لمثل هذا الهجوم أن يضعف مقاومه بروتوكول كريبتونوت (CryptoNote) أمام تحليل
+    سلسله الكتل. هذه النشره البحثيه لم تخضع للمراجعه, ولا تعكس سوي نتائج التحقيق الداخلي.
+  mrl2: التزييف في العملات الرقميه التي تستخدم بروتوكول كريبتونوت (CryptoNote) بإستخدام
+    ثغره شجره ميركل (Merkle Tree)
+  mrl2_abstract: في 4 سبتمبر 2014 تم تنفيذ هجوم جديد وغير عادي ضد شبكه مونيرو. قام
+    الهجوم بتقسيم الشبكه إلي فرعين يرفضون الإعتراف بصلاحيه الآخر. وكان لهذا الهجوم
+    أثار لا تعد ولا تحصي, بعضها غير معروف إلي الأن. علي سبيل المثال كان للمهاجم فتره
+    من الوقت يمكنه تنفيذ أي نوع ممكن من التزييف. هذه الورقه البحثيه تصف أوجه القصور
+    في بروتوكول كريبتونوت (CryptoNote) التي أصبح من خلالها هذا الهجوم ممكن, وتصف الحل
+    الذي تم تقديمه مبدئياً من قبل رافال فريمان من Tigusoft.pl و من ثم فريق (CryptoNote),
+    ويصف الإصلاح القائم بالفعل في كود مونيرو. ويوضح بدقه ما فعلته الكتله التي قام
+    عليها الهجوم في الشبكه. لم تخضع هذه الورقه للمراجعه ولا تعكس سوي نتائج التحقيق
+    الداخلي.
+  mrl3: مونيرو ليس بهذا الغموض.
+  mrl3_abstract: مؤخراً كان هناك بعض المخاوف المنتشره عبر الإنترنت حول بروتوكول كريبتونوت
+    (CryptoNote) قائمه علي حقيقه أنه أكثر تعقيداً من علي سبيل المثال بروتوكول البيتكوين
+    ( Bitcoin). الغرض من هذا البحث تصحيح بعض المفاهيم الخاطئه و أملاً في إزاله الغموض
+    المحيط بنظام توقعيات-الطوق (Ring-Signatures) الخاصه بمونيرو. سوف أبدأ بمقارنه
+    الرياضيات المشاركه في توقيعات-طوق الخاصه بكريبتونوت( CryptoNote) (كماتم وصفها
+    في البرتوكول) إلي الرياضيات في [FS] التي بُني عليها البروتوكول. بعد ذلك سأقوم
+    بمقارنه الرياضيات في نظام توقيعات-الطوق لما هو موجود بالفعل في كود مصدر كريبتونوت
+    (CryptoNote) .
+  mrl4: تحسين التعتيم في بروتوكول كريبتونوت (CryptoNote)
+  mrl4_abstract: قد حددنا العديد من هجمات التحليل المتاحه ضد بروتوكول كريبتونوت (CryptoNote
+    2.0) التي تهدف إضعاف عدم إمكانيه التتبع.نقوم بتحليل الحلول الممكنه, ومناقشه مزاياها
+    وعيوبها, ونوصي بالتحسينات اللازمه لبروتوكول مونيرو التي ستقوم بمقاومه تتبع سلسله
+    الكتل علي المدي الطويل. تشمل هذه التحسينات علي مستوي البروتوكول والشبكه أقل عدد
+    لدمج توقيعات-الطوق (n = 2) , علي مستوي البروتوكول رفع هذه القيمه بعد سنتين إلي
+    ( n = 4 ) , وعلي مستوي المحفظه (n = 4) في هذه الأثناء. ننصح أيضاً بنظام الند إلي
+    الند في إرسال مخرجات معامله مونيرو. نناقش أيضاً طريقه إختيار غير موحده تعتمد علي
+    العمر للتخفيف من هجمات تحليل سلسله الكتل الذي تم تحديده هنا. ولكننا لا نقدم أي
+    توصيات رسميه بشأن دمجها لمجموعه متنوعه من الأسباب. ونناقش أيضاً بالتفصيل الأثار
+    المترتبه علي هذه التحسينات. هذا البحث لم يتم مراجعته ولا يعكس سوي نتائج التحقيق
+    الداخلي.
+  mrl5: المعاملات السريه لتوقيعات الطوق
+  mrl5_abstract: يُقدم هذا المقال طريقه إخفاء كميه المعاملات في العمله الرقميه اللامركزيه
+    مونيرو . كالبتكوين تعتمد عمله مونيرو علي التوزيع من خلال عمليه إثبات-العمل (التعدين).
+    بروتوكول مونيرو الأساسي مبني علي CryptoNote والذي يستهدم توقعيات-الطوق و مفاتيح
+    المره الواحده لإخفاء واجهه و مصدر المعاملات. مؤخراً, تم مناقشه ودمج أسلوب إخفاء
+    المعاملات بواسطه مُطور البتكوين جورج ماكسويل. في هذا المقال يتم وصف نوع جديد من
+    نظام توقيعات-الطوق وهو توقيع مجهول متعدد الطبقات ويسمح بإخفاء مبلغ المعاملات ومصدرها
+    ووِجهتها بكافئه معقوله . بعض ملحقات البروتوكول متوفره مثال (Aggregate Schnorr
+    Range Proofs) و توقيعات-الطوق المزدوجه (Ring Multisignature).يود الكاتب ذكر أن  المسودات
+    المبكره لهذا تم نشرها علي قناه مونيرو والبتكوين عبر ال IRC . تم تسجيل المسودات
+    بسلسله الكتل [14] توضح أنه قد بدأ العمل في صيف 2015 وإكتمل في أوائل شهر أكتوبر
+    2015 كما تتوفر نسخه إلكترونيه في http://eprint.iacr.org/2015/1098.
+  mrl6: An Efficient Implementation of Monero Subaddresses
+  mrl6_abstract: Users of the Monero cryptocurrency who wish to reuse wallet addresses
+    in an unlinkable way must maintain separate wallets, which necessitates scanning
+    incoming transactions for each one. We document a new address scheme that allows
+    a user to maintain a single master wallet address and generate an arbitary number
+    of unlinkable subaddresses. Each transaction needs to be scanned only once to
+    determine if it is destinated for any of the user’s subaddresses. The scheme additionally
+    supports multiple outputs to other subaddresses, and is as efficient as traditional
+    wallet transactions.
+  mrl7: Sets of Spent Outputs
+  mrl7_abstract: This technical note generalizes the concept of spend outputs using
+    basic set theory. The definition captures a variety of earlier work on identifying
+    such outputs. We quantify the effects of this analysis on the Monero blockchain
+    and give a brief overview of mitigations.
+  mrl8: Dual Linkable Ring Signatures
+  mrl8_abstract: This bulletin describes a modification to Monero's linkable ring
+    signature scheme that permits dual-key outputs as ring members. Key images are
+    tied to both output one-time public keys in a dual, preventing both keys in that
+    transaction from being spent separately. This method has applications to non-interactive
+    refund transactions. We discuss the security implications of the scheme.
+  mrl9: Thring Signatures and their Applications to Spender-Ambiguous Digital Currencies
+  mrl9_abstract: We present threshold ring multi-signatures (thring signatures) for
+    collaborative computation of ring signatures, present a game of existential forgery
+    for thring signatures, and discuss uses of thring signatures in digital currencies
+    that include spender-ambiguous cross-chain atomic swaps for confidential amounts
+    without a trusted setup. We present an implementation of thring signatures that
+    we call linkable spontaneous threshold anonymous group signatures, and prove the
+    implementation existentially unforgeable.
+  mrl10: Discrete Logarithm Equality Across Groups
+  mrl10_abstract: This technical note describes an algorithm used to prove knowledge
+    of the same discrete logarithm across different groups. The scheme expresses the
+    common value as a scalar representation of bits, and uses a set of ring signatures
+    to prove each bit is a valid value that is the same (up to an equivalence) across
+    both scalar groups.
+  iacr2020018: "Triptych: logarithmic-sized linkable ring signatures with applications"
+  iacr2020018_abstract: Ring signatures are a common construction used to provide
+    signer ambiguity among a non-interactive set of public keys specified at the time
+    of signing. Unlike early approaches where signature size is linear in the size
+    of the signer anonymity set, current optimal solutions either require centralized
+    trusted setups or produce signatures logarithmic in size. However, few also provide
+    linkability, a property used to determine whether the signer of a message has
+    signed any previous message, possibly with restrictions on the anonymity set choice.
+    Here we introduce Triptych, a family of linkable ring signatures without trusted
+    setup that is based on generalizations of zero-knowledge proofs of knowledge of
+    commitment openings to zero. We demonstrate applications of Triptych in signer-ambiguous
+    transaction protocols by extending the construction to openings of parallel commitments
+    in independent anonymity sets. Signatures are logarithmic in the anonymity set
+    size and, while verification complexity is linear, collections of proofs can be
+    efficiently verified in batches. We show that for anonymity set sizes practical
+    for use in distributed protocols, Triptych offers competitive performance with
+    a straightforward construction.
+  cryptonote: الورقه البيضاء لكريبتونوت (CryptoNote)
+  cryptonote-whitepaper: الورقه البيضاء لكريبتونوت (CryptoNote)
+  cryptonote-whitepaper_para: هذه هي الورقه الرسميه لكريبتونوت المكتوبه بواسطه فريق
+    كريبتونوت. قرائتها سوف يعطيك فِهماً حول آليه عمل خوارزميه كريبتونوت في العموم.
+  annotated: الورقه البيضاء المُفصله
+  annotated_para: فريق بحث مختبر مونيرو نشر نسخه مُفصله من الورقه البيضاء لكريبتونوت.
+    كمراجعه غير رسميه للإدعائات الموجود في الورقه البيضاء سطر بسطر . تقوم أيضاً بشرح
+    المفاهيم الصعبه في مصطلحات سهله الفهم نسبياً.
+  brandon: مراجعه د.براندون جوديل للورقه البيضاء
+  brandon_para: هذه الورقه مراجعه رسميه لورقه كريبتونوت الأصليه بواسطه عضو مختبر بحث
+    مونيرو الباحث د.براندون جوديل. يُلقي نظره مُتعمقه علي الإدعائات والرياضيات المَُقَدّمه
+    في ورقه كريبتونوت.
+
+
+specs:
+  pow_title: خوارزميه تأكيد-العمل
+  block_emission_title: منحني الإصدار
+  block_emission_main: "أولاً, المنحني الرئيسي; حوالي 18.132 مليون عمله بنهايه مايو\
+    \ 2022"
+  block_emission_tail: "ثانياً, منحني الذيل; 0.6 مونيرو يتم إنشائهم كل دقيقتين بمجرد\
+    \ إنتهاء الإصدار الأساسي, يُترجم كـ أقل من 1% تضخم ويقل تدريجياً مع الوقت"
+library:
+  description: "Below are some publications, books or magazines available for you\
+    \ to download."
+  books: Books
+  zerotomonerov2: "Zero to Monero: Second Edition"
+  zerotomonerov2p: >
+    Published: April 4, 2020, with <a href="https://github.com/UkoeHB/Monero-RCT-report">LaTeX
+    source code here</a><br>
+    A comprehensive conceptual (and technical) explanation of Monero.<br>
+    We endeavor to teach anyone who knows basic algebra and simple computer science
+    concepts like the ‘bit representation’ of a number not only how Monero works at
+    a deep and comprehensive level, but also how useful and beautiful cryptography
+    can be.
+  zerotomonerov1: "Zero to Monero: First Edition"
+  zerotomonerov1p: >
+    Published: June 26, 2018, with <a href="https://github.com/UkoeHB/Monero-RCT-report">LaTeX
+    source code here</a>
+  masteringmonerop: >
+    A guide through the seemingly complex world of Monero.<br>
+    It includes:
+    <ul><li>A broad introduction to blockchains and the importance of privacy - ideal
+    for non-technical users.</li>
+    <li>Discussion of Bitcoin’s shortcomings and specific solutions provided by Monero.</li>
+    <li>User stories (illustrating how Monero protects your privacy), analogies, examples,
+    legal/ethical discussions, and code snippets illustrating key technical concepts.</li>
+    <li>Details of the Monero decentralized network, peer-to-peer architecture, transaction
+    lifecycle, and security principles.</li>
+    <li>Introductions to technical foundations of Monero, intended for developers,
+    engineers, software architects, and curious users.</li>
+    <li>New developments such as Kovri, Bulletproofs, Multisignature, Hardware Wallets,
+    etc.</li></ul>
+    See <a href="https://masteringmonero.com/">Mastering Monero</a> website for information.
+  magazines: Magazines
+  revuoq4p: >
+    Quarterly Monero magazine, Q4 2017 edition.<br>
+    In this issue, updates about: development, Monero Research Lab, Kovri, and community.
+  revuoq3p: >
+    Quarterly Monero magazine, Q3 2017 edition.<br>
+    In this issue, updates about: development, Monero Research Lab, Kovri, community,
+    Hardware, and Monerujo.
+
+moneropedia:
+  add_new_text1: If there is an entry you'd like to modify or be added, please
+  add_new_link: open an issue on this website's GitLab repository
+  add_new_text2: or submit changes via pull request
+  entries:
+    account: Account
+    address: Address
+    airgap: Airgap
+    atomic-units: Atomic Units
+    blockchain: Blockchain
+    block: Block
+    bootstrap-node: Bootstrap-node
+    bulletproofs: Bulletproofs
+    canonically-unique-host: Canonically-unique host
+    change: Change
+    clearnet: Clearnet
+    coinbase: Coinbase Transaction
+    consensus: Consensus
+    cryptocurrency: Cryptocurrency
+    daemon: Daemon
+    denominations: Denominations
+    encryption: Encryption
+    fluffyblocks: Fluffy Blocks
+    fungibility: Fungibility
+    kovri: Kovri
+    locally-unique-host: Locally-unique host
+    mining: Mining
+    mnemonicseed: Mnemonic Seed
+    node: Node
+    openalias: OpenAlias
+    paperwallet: Paper Wallet
+    paymentid: Payment ID
+    pedersen-commitment: Pedersen Commitment
+    pruning: Pruning
+    randomx: RandomX
+    remote-node: Remote Node
+    ringCT: Ring CT
+    ringsignatures: Ring Signature
+    ring-size: Ring Size
+    scalability: Scalability
+    signature: Cryptographic Signature
+    smartmining: Smart Mining
+    spendkey: Spend Key
+    stealthaddress: Stealth Address
+    tail-emission: Tail Emission
+    transaction: Transactions
+    unlocktime: Transaction Unlock Time
+    viewkey: View Key
+    wallet: Wallet
+
+blog:
+  author: تم النشر بواسطه
+  date: تم النشر في
+tags:
+  notags: لا يوجد مواضيع تحت هذا الوصف.

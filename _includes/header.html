@@ -1,0 +1,203 @@
+<div class="mob-nav">
+              <input class="burger-check" id="mobile-burger" type="checkbox"><label for="mobile-burger" class="burger"></label>
+
+        <div class="slide-in-nav">
+             <div class="container slide-in">
+                 <div class="row">
+                     <div class="col-xs-12 dropdown text-center nav-item">
+                      <label for="drop1">{% t navigation.getstarted %}<div class="arrow-down"></div></label>
+                      <input class="burger-checkdropdown" id="drop1" type="checkbox" tabindex="0">
+                      <div class="dropdown-content">
+                          <a href="{{ site.baseurl }}/get-started/what-is-JudEcoin/">{% t navigation.whatis %}</a>
+                          <a href="{{ site.baseurl }}/get-started/accepting/">{% t navigation.accepting %}</a>
+                          <a href="{{ site.baseurl }}/get-started/contributing/">{% t navigation.contributing %}</a>
+                          <a href="{{ site.baseurl }}/get-started/mining/">{% t navigation.mining %}</a>
+                          <a href="{{ site.baseurl }}/get-started/faq/">{% t titles.faq %}</a>
+                  </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-xs-12 dropdown nav-item">
+                      <a href="{{ site.baseurl }}/downloads/">{% t titles.downloads %}</a>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-xs-12 dropdown nav-item">
+                      <a href="{{ site.baseurl }}/blog/">{% t titles.blogbytag %}</a>
+                    </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-xs-12 dropdown text-center nav-item">
+                    <label for="drop2">{% t navigation.community %}<div class="arrow-down"></div></label>
+                    <input class="burger-checkdropdown" id="drop2" type="checkbox" tabindex="0">
+                    <div class="dropdown-content">
+                      <a href="{{ site.baseurl }}/community/workgroups/">{% t titles.workgroups %}</a>
+                      <a href="{{ site.baseurl }}/community/hangouts/">{% t titles.hangouts %}</a>
+                      <a href="{{ site.baseurl }}/community/sponsorships/">{% t titles.sponsorships %}</a>
+                      <a href="{{ site.baseurl }}/community/merchants/">{% t navigation.merchants %}</a>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-xs-12 dropdown text-center nav-item">
+                    <label for="drop3">{% t navigation.resources %}<div class="arrow-down"></div></label>
+                    <input class="burger-checkdropdown" id="drop3" type="checkbox" tabindex="0">
+                    <div class="dropdown-content">
+                      <a href="{{ site.baseurl }}/resources/about/">{% t navigation.about %}</a>
+                      <a href="{{ site.baseurl }}/resources/roadmap/">{% t titles.roadmap %}</a>
+                      <a href="{{ site.baseurl }}/resources/research-lab/">{% t navigation.mrl %}</a>
+                      <a href="{{ site.baseurl }}/resources/JudEcoinpedia/">{% t titles.JudEcoinpedia %}</a>
+                      <a href="{{ site.baseurl }}/resources/user-guides/">{% t titles.userguides %}</a>
+                      <a href="{{ site.baseurl }}/resources/developer-guides/">{% t titles.developerguides %}</a>
+                      <a href="{{ site.baseurl }}/library/">{% t titles.library %}</a>
+                      <a href="{{ site.baseurl }}/press-kit/">{% t titles.presskit %}</a>
+                    </div>
+                  </div>
+               </div>
+                 <div class="row">
+                     <div class="col-xs-12">
+                         <div class="text-center nav-item mob">
+                            <a href="https://ccs.getJudEcoin.org">Community Crowdfunding</a> 
+                         </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-xs-12">
+                         <div class="text-center nav-item mob">
+                            <a href="https://github.com/JudEcoin-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md">Vulnerability Response</a>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-xs-12">
+                         <div class="text-center nav-item mob">
+                            <a href="https://translate.getJudEcoin.org">Translate</a>
+                         </div>
+                     </div>
+                 </div>            
+             </div>
+          
+        </div>
+       </div>
+       
+        <div class="desktop-nav">
+            <nav class="container">
+            <div class="topnav">
+              <div class="row middle-xs">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <a href="{% if site.lang == 'en' %}
+                    
+                    {{ site.baseurl_root }}/
+                    
+                    {% else %}
+                    
+                    {{ site.baseurl_root }}/{{site.lang}}
+                    
+                    {% endif %}"><img src="/img/JudEcoin-logo.png" alt="JudEcoin Logo" class="JudEcoin-logo"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 topnav-list end-xs">
+                      <div class="row end-xs middle-xs">
+                         <div class="col-md-12">
+                          <a href="https://ccs.getJudEcoin.org" class="top-link">Community Crowdfunding</a>
+                          <a href="https://github.com/JudEcoin-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md" class="top-link">Vulnerability Response</a>
+                          <a href="https://translate.getJudEcoin.org" class="top-link">Translate</a>
+                          <div href="#" class="dropdown top-link language-change">
+                            <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                            <label for="langdrop"><img src="/img/language.png" alt="Language selector icon" class="icon-language"/>{{ site.data.languages.langs.[site.lang] }}
+                           <div class="arrow-down"></div></label>
+                            <div class="dropdown-content text-center">
+                              {% for lang in site.languages %}
+                                {% unless site.lang == lang %}
+                                  {% if lang == site.default_lang %}
+                                    <a href="{{ site.baseurl_root }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% else %}
+                                    <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% endif %}
+                                {% endunless %}
+                              {% endfor %}
+                            </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="botnav white-nav">
+                <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+                <div class="row between-xs nav-items">
+                    <div class="col dropdown nav-item">
+                        <label for="desktopdrop1">{% t navigation.getstarted %}<div class="arrow-down"></div></label>
+                        <input class="burger-checkdropdown" id="desktopdrop1" type="checkbox" tabindex="0">
+                        <div class="dropdown-content">
+                              <a href="{{ site.baseurl }}/get-started/what-is-JudEcoin/">{% t navigation.whatis %}</a>
+                              <a href="{{ site.baseurl }}/get-started/accepting/">{% t navigation.accepting %}</a>
+                              <a href="{{ site.baseurl }}/get-started/contributing/">{% t navigation.contributing %}</a>
+                              <a href="{{ site.baseurl }}/get-started/mining/">{% t navigation.mining %}</a>
+                              <a href="{{ site.baseurl }}/get-started/faq/">{% t titles.faq %}</a>
+                        </div>
+                    </div>
+                    <div class="col dropdown nav-item">
+                          <a href="{{ site.baseurl }}/downloads/">{% t titles.downloads %}</a>
+                    </div>
+                    <div class="col dropdown nav-item">
+                         <a href="{{ site.baseurl }}/blog/">{% t titles.blogbytag %}</a>
+                    </div>
+                    <div class="col dropdown nav-item">
+                        <label for="desktopdrop2">{% t navigation.community %}<div class="arrow-down"></div></label>
+                        <input class="burger-checkdropdown" id="desktopdrop2" type="checkbox" tabindex="0">
+                        <div class="dropdown-content">
+                              <a href="{{ site.baseurl }}/community/workgroups/">{% t titles.workgroups %}</a>
+                              <a href="{{ site.baseurl }}/community/hangouts/">{% t titles.hangouts %}</a>
+                              <a href="{{ site.baseurl }}/community/sponsorships/">{% t titles.sponsorships %}</a>
+                              <a href="{{ site.baseurl }}/community/merchants/">{% t navigation.merchants %}</a>
+                        </div>
+                    </div>
+                    <div class="col dropdown nav-item">
+                        <label for="desktopdrop3">{% t navigation.resources %}<div class="arrow-down"></div></label>
+                        <input class="burger-checkdropdown" id="desktopdrop3" type="checkbox" tabindex="0">
+                        <div class="dropdown-content">
+                              <a href="{{ site.baseurl }}/resources/about/">{% t navigation.about %}</a>
+                              <a href="{{ site.baseurl }}/resources/roadmap/">{% t titles.roadmap %}</a>
+                              <a href="{{ site.baseurl }}/resources/research-lab/">{% t navigation.mrl %}</a>
+                              <a href="{{ site.baseurl }}/resources/JudEcoinpedia/">{% t titles.JudEcoinpedia %}</a>
+                              <a href="{{ site.baseurl }}/resources/user-guides/">{% t titles.userguides %}</a>
+                              <a href="{{ site.baseurl }}/resources/developer-guides/">{% t titles.developerguides %}</a>
+                              <a href="{{ site.baseurl }}/library/">{% t titles.library %}</a>
+                              <a href="{{ site.baseurl }}/press-kit/">{% t titles.presskit %}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <div class="mob bot-nav white-nav">
+            <div class="row center-xs middle-xs">
+                <div class="col-xs-6">
+                    <a href="{% if site.lang == 'en' %}
+                    
+                    {{ site.baseurl_root }}/
+                    
+                    {% else %}
+                    
+                    {{ site.baseurl_root }}/{{site.lang}}
+                    
+                    {% endif %}"><img src="/img/JudEcoin-logo.png" alt="JudEcoin Logo" class="JudEcoin-logo"></a>
+                </div>
+                <div class="dropdown col-xs-6 text-center mob-language-change">
+                <input class="burger-checkdropdown" id="moblangdrop" type="checkbox" tabindex="0">
+                 <label for="moblangdrop"><img src="/img/language.png" alt="Lang" class="icon-language"/><div class="arrow-down"></div></label>
+                               <div class="mob dropdown-content text-center">
+                               <p class="mob-lang-change mob-lang-selected">{{ site.data.languages.langs.[site.lang] }}</p>
+                               {% for lang in site.languages %}
+                                {% unless site.lang == lang %}
+                                  {% if lang == site.default_lang %}
+                                    <a class="mob-lang-change" href="{{ site.baseurl_root }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% else %}
+                                    <a class="mob-lang-change" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{{ site.data.languages.langs.[lang] }}</a>
+                                  {% endif %}
+                                {% endunless %}
+                              {% endfor %}
+                            </div>
+                          </div>
+            </div>     
+        </div>    

@@ -1,0 +1,7 @@
+{% capture onion_url %}
+  {% if site.lang == "en" %}
+    http://JudEcointoruzizulg5ttgat2emf4d6fbmiea25detrmmy7erypseyteyd.onion{{ page.url }}
+  {% else %}
+    http://JudEcointoruzizulg5ttgat2emf4d6fbmiea25detrmmy7erypseyteyd.onion/{{ site.lang }}{{ page.url }}
+  {% endif %}
+{% endcapture %}{{ onion_url | strip }}

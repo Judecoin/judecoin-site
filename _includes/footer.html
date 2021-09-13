@@ -1,0 +1,58 @@
+<footer class="container-fluid">
+            <div class="container">
+                <div class="row around-xs footer-wrapper">
+                     <div class="col-sm-3 col-xs-6">
+                         <h3>{% t navigation.resources %}</h3>
+                            <ul class="list-unstyled">
+                                <li><a class="white" href="{{ site.baseurl }}/resources/about/">{% t titles.about %}</a></li>
+                                <li><a class="white" href="{{ site.baseurl }}/resources/JudEcoinpedia/">JudEcoinpedia</a></li>
+                                <li><a class="white" href="{{ site.baseurl }}/resources/developer-guides/">{% t titles.developerguides %}</a></li>
+                                <li><a class="white" href="{{ site.baseurl }}/resources/user-guides/">{% t titles.userguides %}</a></li>
+                                <li><a class="white" href="{{ site.baseurl }}/library/">{% t titles.library %}</a></li>
+                                <li><a class="white" href="{{ site.baseurl }}/downloads/">{% t titles.downloads %}</a></li>
+                                
+                            </ul>
+                     </div>
+                     <div class="col-sm-3 col-xs-6">
+                        <h3>{% t footer.reachout %}</h3>
+                            <ul class="list-unstyled">
+                                 <li><a class="white" href="{{ site.baseurl}}/community/team/">{% t titles.workgroups %}</a></li>
+                                 <li><a class="white" href="{{ site.baseurl}}/community/hangouts/">{% t titles.hangouts %}</a></li>
+                                 <li><a class="white" href="https://lists.getJudEcoin.org/postorius/lists/JudEcoin-announce.lists.getJudEcoin.org/">{% t footer.ml %}</a></li>
+                                 <li><a class="white" href="https://mattermost.getJudEcoin.org/">Mattermost</a></li>
+
+                            </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <h3>{% t navigation.community %}</h3>
+                            <ul class="list-unstyled">
+                                 <li><a class="white" href="{{ site.baseurl}}/community/merchants/">{% t titles.merchants %}</a></li>
+                                 <li><a class="white" href="https://JudEcoin.stackexchange.com/">Stack Exchange</a></li>
+                                 <li><a class="white" href="https://bitcointalk.org/index.php?topic=583449.0">BitcoinTalk</a></li>
+                                 <li><a class="white" href="https://translate.getJudEcoin.org/">Weblate</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <h3>{% t global.JudEcoin_project %}</h3>
+                            <ul class="list-unstyled">
+                                 <li><a class="white" href="https://openalias.org/">Open Alias</a></li>
+                                 <li><a class="white" href="{{ site.baseurl }}/resources/research-lab/">{% t titles.researchlab %}</a></li>
+                                 <li><a class="white" href="{{ site.baseurl }}/press-kit/">{% t titles.presskit %}</a></li>
+                                 <li><a class="white" href="https://ccs.getJudEcoin.org">{% t footer.ccs %}</a></li>
+                            </ul>
+                    </div>
+                <div class="row center-xs">
+                    <div class="footer-links">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="{% include onion.html %}" class="white footer-link"><img class="tor" src="/img/onion-tor.svg" alt="onion service">Tor Onion Service</a></li>
+                             <li><a href="{{ site.baseurl }}/legal/" class="white footer-link">{% t footer.legal %}</a></li>
+                             <li><a href="https://github.com/JudEcoin-project/JudEcoin-site" class="white footer-link">{% t footer.source %}</a></li>
+                             <li><a href="{{ site.baseurl}}/sitemap.xml" class="white footer-link">Sitemap</a></li>
+                             <li><a class="white" href="{{ site.baseurl_root }}/feed.xml"><img src="/img/feed.svg" alt="Feed icon">{% t footer.feed %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+</footer>
+{% include hostflag.html %}

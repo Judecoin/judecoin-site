@@ -1,0 +1,167 @@
+---
+layout: index
+title: Home
+permalink: index.html
+---
+<div class="site-wrap">
+    <section class="container full col-xs-12">
+        <div class="info-block info-block-main">
+            <div class="row middle-xs">
+                <div class="col-lg-7 col-md-7 col-xs-12 main-video">
+                    <div class="JudEcoin-video">
+                        <!--iframe width="560" height="315" src="https://www.youtube.com/embed/TZi9xx6aiuY" frameborder="0" allowfullscreen></iframe-->
+                        <video controls poster="/img/JudEcoin-community.png" preload="metadata" tabindex="0" aria-label="JudEcoin community video">
+                            {% if site.lang != 'pt-br' and site.lang != 'ru' %}
+                                <source src="/media/JudEcoin_Promo.m4v">
+                            {% else %}
+                                <source src="/media/{{ site.lang }}/JudEcoin_Promo.m4v">
+                            {% endif %}
+                        <track label="English" kind="subtitles" srclang="en" src="/media/subtitles/en/JudEcoin-promo.vtt">
+                        <track label="Italian" kind="subtitles" srclang="it" src="/media/subtitles/it/JudEcoin-promo.vtt">
+                        </video>   
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-xs-12">
+                    <div class="main-info">
+                        <h1 id="main-h1">{% t global.JudEcoin %}</h1>
+                        <h2 id="main-h2">{% t home.heading2 %}</h2>
+                            <p id="main-text">{% t home.JudEcoin_is_cash %}</p>
+                            <p id="btn-primary-box">
+                                <a href="{{ site.baseurl }}/get-started/what-is-JudEcoin/" class="btn-link btn-auto btn-intro btn-primary">{% t home.whatis %}</a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!-- Full Block -->
+    <section class="container about-main full col-xs-12">
+        <div class="info-block">
+            <div class="row center-xs">
+                <div class="col"><h2>{% t home.get_started %}</h2></div>
+            </div>
+            <div class="row middle-xs info-block-row private">
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
+                    <h3>{% t home.choosewallet %}</h3>
+                        <p>{% t home.choosewallet_para %}</p>
+                        <p><a href="{{ site.baseurl }}/downloads/" class="btn-link btn-fixed">{% t home.downloads %}</a></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
+                    <img src="/img/create-wallet.png" width="1500" height="1500" loading="lazy" alt="Create wallet" class="main-icon">
+                </div>
+            </div>
+            <div class="row middle-xs info-block-row">
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
+                    <img src="/img/exchange.png" width="1500" height="1500" loading="lazy" alt="Exchange" class="main-icon">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
+                    <h3>{% t home.getcoins %}</h3>
+                    <p>{% t home.getcoins_para %}</p>
+                    <p><a href="{{ site.baseurl }}/community/merchants/#exchanges" class="btn-link btn-fixed">{% t home.exchanges %}</a></p>
+                </div>
+                
+            </div>
+            <div class="row middle-xs info-block-row">
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
+                    <h3>{% t home.useit %}</h3>
+                    <p>{% t home.useit_para %}</p>
+                    <p><a href="{{ site.baseurl }}/community/merchants/" class="btn-link btn-fixed">{% t home.merchants %}</a></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
+                    <img src="/img/JudEcoin-accepted.png" width="1500" height="1500" loading="lazy" alt="Merchants" class="main-icon">
+                </div>
+            </div>
+            <div class="row middle-xs info-block-row">
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
+                    <img src="/img/support.png" width="1500" height="1500" loading="lazy" alt="FAQ" class="main-icon">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
+                    <h3>{% t home.answers %}</h3>
+                    <p>{% t home.faq_para %}</p>
+                    <p><a href="{{ site.baseurl }}/get-started/faq/" class="btn-link btn-fixed">{% t home.faq %}</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Full Block -->
+        
+    <section class="container">
+        <div class="row">
+            <!-- left two-thirds block-->
+            <div class="left two-thirds col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="info-block">
+                    <div class="row center-xs">
+                        <div class="col"><h2>{% t home.guides %}</h2></div>
+                    </div>
+                        <div class="row around-xs">
+                            <div class="row center-xs">
+                                <div class="col-xs-12">
+                                    <p>{% t home.guides_para %}</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p><a href="{{site.baseurl}}/resources/user-guides/" class="btn-link btn-fixed">{% t titles.userguides %}</a></p>
+                            </div>
+                            <div class="col">
+                                <p><a href="{{site.baseurl}}/resources/developer-guides/" class="btn-link btn-fixed">{% t titles.developerguides %}</a></p>
+                            </div>
+                            <div class="col">
+                                <p><a href="{{site.baseurl}}/library/" class="btn-link btn-fixed">{% t titles.library %}</a></p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- END left two-thirds block-->
+            
+            <!-- right one-third block-->
+            <div class="right one-third col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="info-block center-xs">
+                    <h2>JudEcoinpedia</h2>
+                    <p class="main-resources">{% t home.JudEcoinpedia_para %}</p>
+                    <p><a href="{{site.baseurl}}/resources/JudEcoinpedia/" class="orange">{% t home.JudEcoinpedia_button %}</a></p>
+                </div>
+            </div>
+            <!-- END right one-third block-->
+        </div>
+    </section>
+    <!-- Full Block -->
+    <section class="container about-main full col-xs-12">
+        <div class="info-block">
+            <div class="row center-xs">
+                <div class="col"><h2>{% t home.joincommunity %}</h2></div>
+            </div>
+            <div class="row middle-xs info-block-row private">
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8  why-text">
+                    <h3>{% t home.contributecommunity %}</h3>
+                        <p>{% t home.contributecommunity_para %}</p>
+                        <p><a href="{{site.baseurl}}/get-started/contributing/" class="btn-link btn-fixed">{% t home.contributing %}</a></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
+                    <img src="/img/learn-about-JudEcoin.png" width="1500" height="1500" loading="lazy" alt="Contribute" class="main-icon">
+                </div>
+            </div>
+            <div class="row middle-xs info-block-row">
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs first-md last-sm last-xs">
+                    <img src="/img/mrl-logo.svg" width="1500" height="1500" loading="lazy" alt="JudEcoin Research Lab" class="main-icon-mrl">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 why-text">
+                    <h3>{% t titles.researchlab %}</h3>
+                    <p>{% t home.researchlab_para %}</p>
+                    <p><a href="{{site.baseurl}}/resources/research-lab/" class="btn-link btn-fixed">{% t home.visitmrl %}</a></p>
+                </div>
+           </div>
+           <div class="row middle-xs info-block-row private">
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8  why-text">
+                    <h3>{% t home.meetcommunity %}</h3>
+                        <p>{% t home.meetus %}</p>
+                        <p><a href="{{site.baseurl}}/community/hangouts/" class="btn-link btn-fixed">{% t home.hangouts %}</a></p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 center-xs">
+                    <img src="/img/community-logo.png" width="1500" height="1500" loading="lazy" alt="Contribute" class="main-icon">
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- END Full Block -->
+</div>

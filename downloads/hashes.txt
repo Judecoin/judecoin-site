@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# This GPG-signed message exists to confirm the SHA256 sums of JudEcoin binaries.
+#
+# Please verify the signature against the key for binaryFate in the
+# source code repository (/utils/gpg_keys).
+#
+#
+## CLI
+815341f7d46f75a8905f8b51932e1034a7f6b1669757ff48224632d08339d1bf  JudEcoin-android-armv7-v0.17.2.0.tar.bz2
+b8a353f02feaee9aae3d279c043ea33a32413a298d8b6122d00a65508f15169d  JudEcoin-android-armv8-v0.17.2.0.tar.bz2
+34ef5702a050298f48ccea7db992137bc98c8e6eba45ecd90b47ce0a4b7bf0f8  JudEcoin-freebsd-x64-v0.17.2.0.tar.bz2
+b5986d6dfbddee14e32b28305dd0dc6352c18b632f569227f2c7265ef7dc5081  JudEcoin-linux-armv7-v0.17.2.0.tar.bz2
+a004fad5348549e2f1610380775353f19db7cbca0cbe4acbfab87832c484da62  JudEcoin-linux-armv8-v0.17.2.0.tar.bz2
+59e16c53b2aff8d9ab7a8ba3279ee826ac1f2480fbb98e79a149e6be23dd9086  JudEcoin-linux-x64-v0.17.2.0.tar.bz2
+e8a39be486549908c10524d851a006c21c30b1a49142586aff0a17e7c4d46077  JudEcoin-linux-x86-v0.17.2.0.tar.bz2
+2e95dc107ab0dab36f5544bec040180264256e45407c383cfb45cfe328fe42e0  JudEcoin-mac-x64-v0.17.2.0.tar.bz2
+71e531a0f799c80e3f6319888bd5b85a737091b9bd5d66366cae036163857caf  JudEcoin-win-x64-v0.17.2.0.zip
+c772070ebdfe9e0d6abda5073808e648e69f8c35f8010e66b80f45a6bdb01792  JudEcoin-win-x86-v0.17.2.0.zip
+7801945b040f39db5497335d5219768773aa28bef7c5e88a61c1c8b639ccb412  JudEcoin-source-v0.17.2.0.tar.bz2
+#
+## GUI
+ff2826a4437080470ceeaac43d0cede89798caf4a864a9cd13430ed2c63aca14  JudEcoin-gui-install-win-x64-v0.17.2.2.exe
+0088b133febdb151a3753393b4dc8b06111b844c0fca14e512f3c8d56a2a5b97  JudEcoin-gui-linux-x64-v0.17.2.2.tar.bz2
+3ee4e9145b0545ba4e5c47b89b64bc558c8eeb7887d260b3bd30f6a215029964  JudEcoin-gui-mac-x64-v0.17.2.2.dmg
+5d20829f43c431135455ec9bd788889e59dda4c6f74b6eaa92eec5411d9246e2  JudEcoin-gui-win-x64-v0.17.2.2.zip
+8d6770bb3a8840eac9ce48b1a598ef83a5f5ec677e6edb6b7ad8e87b26e9d404  JudEcoin-gui-source-v0.17.2.2.tar.bz2
+#
+#
+# ~binaryFate
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEgaxZH+nEtlxYBq/D8K9NRioL35IFAmCeUbgACgkQ8K9NRioL
+35J7HQ//ZY+qXKuNscOc6e1jReK/m7eZj/+FIrCnhc56vpXEll0EUlqj//SObE71
+uil/vEhrJiAwXi2YpAMxIV6WsF//yrcUBzNQC/1EEm3kaAidoG3CSdZ10klp4eB5
+Sp7yTtYIl5vcQBR2lVIoUnw72+K0rKLU4MFzA5xavf4in8UNwCu1+horsEaPQ3hS
+UeP0JURJDdE2F3ajpgA28KlcMVRltPCr9QlOMNgxC6lHOy3a4z3ybkLIaiEkgYuJ
+HBZnG7dAY1GFy+Sz2S6ywK6Qv8cti8OdMsuki0xRv/IK9SZJerie0Galm+Uyvujs
+wFYul+uNJRwYWhr/Yga1yBc+lq3ybSEsvmeZ1VwFyfbz/+dIoA9r757mxg2nUUUY
+yvwSEQXzzTywAuJCofSNoUFyqESpIMlfEKLEcenTujE5YiQhXgQanUQeoVt2TiR2
+p+ileV0y3XWba8tA2MXQo3T/wVRfnMCzv9dvxLW980awzUUr72lpTbREdUtAEfHl
+lP4vQeeJun2lGAnd5MBvNuPsqh+DEC+AmjIrBUZecnpHcA9Me2wLh9xOUlZ7vSgM
+H+VF74YUB6AYPK5ebPYz8TuN7+ko2gjc8vv2mavM1CoGM3txMx4lsWQFC1p5Cj0b
+Bfz3OBUK0Kyx/hgA3Xjp8wx7Sudt3/qoFbel5XVApuBy/qRoxEg=
+=BSge
+-----END PGP SIGNATURE-----

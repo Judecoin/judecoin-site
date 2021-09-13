@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-03-23 12:26+0100\n"
+"PO-Revision-Date: 2021-04-12 10:56+0000\n"
+"Last-Translator: gabriel <redstonenoob2005@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.getJudEcoin.org/projects/"
+"getJudEcoin-user-guides/howto_fix_stuck_funds/pt_BR/>\n"
+"Language: pt-br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.5.3\n"
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:2
+msgid "{% include disclaimer.html translated=\"no\" translationOutdated=\"no\" %}"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:4
+msgid ""
+"Sometimes, your funds will become stuck - you will have some locked funds "
+"that never become unlocked. This is how you fix it."
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:6
+msgid "- Load your wallet in JudEcoin-wallet-cli."
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:8
+msgid "- Type"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:10
+msgid "> seed"
+msgstr "> semente"
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:12
+msgid ""
+"into the command prompt. Write down your 25 word seed, if you haven't "
+"already. This is the best way to make sure you don't lose access to your "
+"funds."
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:14
+msgid "- Close JudEcoin-wallet-cli by typing"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:16
+msgid "> exit"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:18
+msgid "- Backup all of your wallet related files. These include:"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:22
+msgid ""
+"> yourwalletname.bin > yourwalletname.bin.keys > "
+"yourwalletname.bin.address.txt"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:24
+msgid "This can be done by copying the files to a new folder."
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:26
+msgid ""
+"Sometimes, when creating your wallet, you might have named it something "
+"without the .bin part. In that case, the wallet file will be called "
+"yourwalletname without the .bin at the end."
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:28
+msgid "- Delete yourwallet.bin"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:30
+msgid "- Load JudEcoin-wallet-cli, type in the name of the wallet you just deleted"
+msgstr ""
+
+#. type: Plain text
+#: _i18n/en/resources/user-guides/howto_fix_stuck_funds.md:32
+msgid ""
+"- Enter password. The wallet will now refresh and hopefully your locked "
+"funds will now become unlocked."
+msgstr ""

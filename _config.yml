@@ -1,0 +1,55 @@
+email: dev@getmonero.org
+name: Monero
+description: Monero is a digital currency that is secure, private, and untraceable.
+keywords: "monero, xmr, bitmonero, cryptocurrency"
+baseurl: ""
+url: "https://www.getmonero.org"
+
+markdown: kramdown
+
+# Kramdown was using smart quotes, which messes up CLI examples
+# TODO: smart quotes are actually quite pretty, so this is perhaps better handled via a plugin that reverts them for CLI blocks
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+    input: GFM
+
+exclude: ["README.md", "CONTRIBUTING.md", "LICENSE"]
+
+# paginate
+paginate: 10
+paginate_path: blog/page:num/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-multiple-languages-plugin
+  - jekyll-feed
+
+feed:
+  posts_limit: 20
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "es", "it", "pl", "fr", "ar", "ru", "de", "nl", "pt-br", "tr", "zh-cn", "zh-tw", "nb-no"]
+
+
+exclude_from_localizations: ["img", "css", "fonts", "media", "404.html", "feed.xml", "meta", "_posts", "legal", "blog"]
+
+
+
+# Windows live tiles config
+ie_tile_color: eeeeee
+ie_tile_small: https://static.getmonero.org/images/live-tiles/small.png
+ie_tile_medium: https://static.getmonero.org/images/live-tiles/medium.png
+ie_tile_wide: https://static.getmonero.org/images/live-tiles/wide.png
+ie_tile_large: https://static.getmonero.org/images/live-tiles/large.png
+
+# Sitemap
+sitemap:
+    exclude:
+        - "/ietemplates/ieconfig.xml"
+        - "/ietemplates/poll1.xml"
+        - "/ietemplates/poll2.xml"
+        - "/ietemplates/poll3.xml"
+        - "/ietemplates/poll4.xml"
+        - "/ietemplates/poll5.xml"
+        - "/feed.xml"
+        - "/404.html"
