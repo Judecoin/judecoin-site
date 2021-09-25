@@ -26,7 +26,7 @@ Once you have the above list of things, it's typically a good idea to build the 
 4. If all went well, you should see the JudEcoin website and you're ready to make changes.
 
 ## General change recommendations
-The average JudEcoin user that will want to contribute to the website should probably start looking for issues labelled [⛑️ contributor needed](https://www.judecoin.io/contribution) or making blog posts, user guides or JudEcoinpedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
+The average Judecoin user that will want to contribute to the website should probably start looking for issues labelled [⛑️ contributor needed](https://www.judecoin.io/contribution) or making blog posts, user guides or JudEcoinpedia entries; all of which are covered in this document. If this is all you want to do, don't worry, it's actually not a daunting task at all.
 
 If you are a web developer and would like to make large macro-level changes, it would be best to open an issue first or to get in contact with the developers on `#JudEcoin-site` (IRC/Freenode, MatterMost, Matrix).
 
@@ -165,7 +165,7 @@ In the event that you think your User Guide should be in a new Category that doe
 
 Repeat the above process for each language version of this index page.
 
-## How to make a JudEcoinpedia Entry
+## How to make a Judecoinpedia Entry
 
 ### 1. Make a Global file
 Navigate to the /resources/JudEcoinpedia folder and make a new file. Be sure the file name has no spaces and the ending is .md
